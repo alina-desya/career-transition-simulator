@@ -12,7 +12,7 @@ They may have valuable experience but struggle to see how it translates beyond t
 
 Most AI-supported job-search workflows begin after a target role has already been chosen. They focus on rewriting resumes, drafting cover letters, or preparing interview answers.
 
-The Career Transition Simulator starts earlier.
+The Career Transition Simulator starts earlier. It can begin with a role the user is considering, or with their experience and constraints when no target is obvious.
 
 It helps you use AI as a structured thinking partner to explore possible directions, examine how the market may interpret your background, and decide what to investigate next.
 
@@ -62,7 +62,7 @@ The simulator supports decisions; it does not make them for you.
 
 ## How the simulator works
 
-The simulator uses a reverse-prompting approach. Instead of asking AI a broad question such as “What career should I pursue?”, you begin with a target role and evidence from your experience. AI then helps you examine the transition through four connected perspectives: the market, the hiring process, the gap between your profile and the role, and a focused transition strategy.
+The simulator uses a reverse-prompting approach. Instead of asking AI a broad question such as “What career should I pursue?”, you begin with evidence from your experience, preferences, and constraints. If you have a target role, the simulator evaluates it. If you do not, it maps your capabilities to several materially different market hypotheses, including less obvious paths.
 
 Before beginning, define your transition question and provide an experience inventory. Include responsibilities, decisions, constraints, collaborators, outcomes, and the scale of your work—not only job titles. This information is an input to the framework, rather than an additional stage.
 
@@ -72,7 +72,7 @@ Each stage builds on the previous one. The goal is not to generate an instant ca
 
 ### 1. Market Lens Analysis
 
-Understand how the target role is positioned in current market demand.
+Understand how a target role is positioned in current market demand—or discover plausible directions when no target has been chosen. Discovery produces distinct adjacent, cross-functional, emerging or less obvious, and stretch hypotheses grounded in the user's evidence and market signals.
 
 Examine current job descriptions, recurring responsibilities, required capabilities, common terminology, seniority expectations, and relevant industry signals. The aim is to build a market-informed picture of the role before evaluating personal fit.
 
@@ -117,7 +117,7 @@ You can use the framework with an AI assistant or work through the stages indepe
 
 1. Copy the recommended input template below.
 2. Complete as much of it as you can.
-3. Ask the AI assistant to guide you through one framework stage at a time.
+3. Ask the AI assistant to guide you through one framework stage at a time. If you do not have a target role, ask it to use discovery mode first.
 4. Review each stage before continuing. Correct assumptions and add missing context.
 5. Treat generated paths and assessments as hypotheses to investigate—not conclusions.
 6. Finish by choosing one practical experiment and defining what you hope to learn from it.
@@ -125,7 +125,7 @@ You can use the framework with an AI assistant or work through the stages indepe
 Suggested opening prompt:
 
 ```text
-Act as a structured career-transition thinking partner. Use the Career Transition Simulator framework and guide me through one stage at a time. Distinguish evidence from assumptions, ask for missing context when necessary, and do not choose a career for me. At the end, help me design a small experiment to test the most promising direction.
+Act as a structured career-transition thinking partner. Use the Career Transition Simulator framework and guide me through one stage at a time. If I have no target role, use discovery mode to surface four materially different career hypotheses, including a non-obvious path grounded in my experience and market signals. Distinguish facts, interpretations, assumptions, and market evidence; do not choose a career for me. At the end, help me design a small, low-risk experiment to test the direction I select.
 ```
 
 ## Recommended input
@@ -195,13 +195,13 @@ Depending on the question and the available evidence, the simulator can produce:
 - an experience and capability inventory
 - a transferable-skills map
 - market-language translations of existing experience
-- a shortlist of adjacent and stretch career paths
+- a shortlist of adjacent, cross-functional, emerging, and stretch career paths
 - a role-fit hypothesis
 - a simulated recruiter or hiring-manager review
 - a list of likely strengths, concerns, and follow-up questions
 - a competency, evidence, positioning, and exposure gap analysis
 - a set of assumptions that require validation
-- a time-bounded transition experiment
+- a time-bounded, low-risk transition experiment
 - suggested success signals and reflection questions
 
 Outputs should clearly distinguish:
@@ -215,7 +215,7 @@ Outputs should clearly distinguish:
 
 > A career transition is not only a job search. It is the process of interpreting existing experience against new forms of market demand—and gathering better evidence before making a decision.
 
-The aim is not to predict the future. It is to help people see their experience more clearly, explore possibilities responsibly, and test the next step with less guesswork.
+The aim is not to predict the future or recommend the most obvious job title. It is to help people see their experience more clearly, expand plausible directions, and test a selected next step with less guesswork and limited downside.
 
 ## Created for Grace Hopper Celebration
 

@@ -1,11 +1,11 @@
 ---
 name: career-transition-simulator
-description: Guide professionals through the four-stage Reverse Prompting Framework to evaluate a target career transition using current market signals, a simulated hiring review, calibrated role gaps, and a focused short-term strategy. Use when someone wants to explore or test a move into a specific role, function, or industry before rewriting application materials.
+description: Help professionals discover and safely test non-obvious career directions through current market signals, simulated hiring reviews, calibrated gaps, and focused transition experiments. Use when someone wants to explore career possibilities or evaluate a move before rewriting application materials.
 ---
 
 # Career Transition Simulator
 
-Help the user evaluate a career transition without choosing a career for them or treating an AI-generated assessment as a hiring prediction.
+Help the user discover and evaluate career transitions without choosing a career for them or treating an AI-generated assessment as a hiring prediction. Expand the user's options, identify plausible but non-obvious paths, and design low-risk experiments that produce better evidence before a major commitment.
 
 Run the four stages in order. Complete and present one stage at a time, then ask the user to review or correct it before continuing. Preserve prior findings so each stage builds on the evidence established earlier.
 
@@ -13,14 +13,14 @@ Run the four stages in order. Complete and present one stage at a time, then ask
 
 Establish these inputs before Stage 1:
 
-- target role, function, or professional direction
 - current role or professional identity
 - relevant responsibilities, projects, decisions, and outcomes
 - industries and work environments
 - known constraints or non-negotiables
 - location or target market when it affects role expectations
+- interests, energy sources, and work the user wants more or less of, when available
 
-Ask only for material information that is missing. If the user has not selected a target, help them narrow the question to one direction for the current simulation. Treat this preparation as input collection, not as another framework stage.
+Ask only for material information that is missing. If the user has not selected a target, do not force them to choose one before analysis. Use discovery mode in Stage 1 to generate several materially different career hypotheses, including at least one non-obvious direction. If the user already has a target, use targeted mode while still checking whether adjacent or less obvious alternatives deserve consideration. Treat this preparation as input collection, not as another framework stage.
 
 Encourage the user to remove personal identifiers and confidential employer or client information. Do not request sensitive data that is unnecessary for the analysis.
 
@@ -35,7 +35,7 @@ Encourage the user to remove personal identifiers and confidential employer or c
 
 ## Stage 1: Market Lens Analysis
 
-Understand how the target role is positioned in current market demand.
+Use targeted mode for a chosen role, or discovery mode when no target is obvious. In discovery mode, map capability clusters to four materially different hypotheses: intuitive adjacent, cross-functional, emerging or less obvious, and stretch. Do not optimize for title similarity; explain the evidence, market signal, and largest barrier for each hypothesis, then ask the user to select one before Stage 2.
 
 Analyze:
 
@@ -51,14 +51,14 @@ Analyze:
 
 Present:
 
-1. a concise role definition
-2. recurring market expectations
-3. variable or employer-specific expectations
+1. evidence sources or a limitation note
+2. a concise market interpretation
+3. recurring and variable expectations
 4. important terminology
 5. notable market signals
-6. evidence sources or a limitation note
+6. in discovery mode, a compact comparison of the four hypotheses
 
-End with: **What is the market actually asking for?** Answer the question directly, then pause for the user's review.
+End with: **What is the market actually asking for, and where might it value this user's experience?** Answer directly, then pause for review and target selection or confirmation.
 
 ## Stage 2: Hiring Simulation Prompt
 

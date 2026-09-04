@@ -1,4 +1,4 @@
 interface:
   display_name: "Career Transition Simulator"
-  short_description: "Test a career move through four evidence-led stages"
-  default_prompt: "Use $career-transition-simulator to evaluate my target career transition one stage at a time."
+  short_description: "Discover and safely test career directions"
+  default_prompt: "Use $career-transition-simulator to help me discover and safely test career directions one stage at a time. If I have no target role, begin in discovery mode and surface non-obvious paths grounded in my experience."
