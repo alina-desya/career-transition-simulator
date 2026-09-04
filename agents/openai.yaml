@@ -1,0 +1,4 @@
+interface:
+  display_name: "Career Transition Simulator"
+  short_description: "Test a career move through four evidence-led stages"
+  default_prompt: "Use $career-transition-simulator to evaluate my target career transition one stage at a time."
