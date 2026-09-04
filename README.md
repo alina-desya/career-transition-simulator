@@ -62,60 +62,54 @@ The simulator supports decisions; it does not make them for you.
 
 ## How the simulator works
 
-The simulator uses a reverse-prompting approach. Instead of asking AI a broad question such as “What career should I pursue?”, you provide evidence about your experience and a possible direction. The simulator then examines that evidence from several perspectives.
+The simulator uses a reverse-prompting approach. Instead of asking AI a broad question such as “What career should I pursue?”, you begin with a target role and evidence from your experience. AI then helps you examine the transition through four connected perspectives: the market, the hiring process, the gap between your profile and the role, and a focused transition strategy.
 
-The process moves through a sequence of stages:
+Before beginning, define your transition question and provide an experience inventory. Include responsibilities, decisions, constraints, collaborators, outcomes, and the scale of your work—not only job titles. This information is an input to the framework, rather than an additional stage.
 
-1. establish your current context
-2. extract capabilities from your experience
-3. translate those capabilities into market language
-4. generate or examine possible transition paths
-5. simulate how a hiring team may evaluate your profile
-6. identify the type and importance of any gaps
-7. design a small experiment to test the direction
+Each stage builds on the previous one. The goal is not to generate an instant career verdict, but to develop a transition hypothesis grounded in market signals and personal evidence.
 
-Each stage builds on the previous one. The goal is not to produce an instant answer, but to improve the quality of the questions, evidence, and decisions involved in a transition.
+## The four-stage Reverse Prompting Framework
 
-## Framework stages
+### 1. Market Lens Analysis
 
-### Stage 0: Define the transition question
+Understand how the target role is positioned in current market demand.
 
-Clarify what you are trying to understand. You may already have a target role, or you may only know that your current direction no longer fits.
+Examine current job descriptions, recurring responsibilities, required capabilities, common terminology, seniority expectations, and relevant industry signals. The aim is to build a market-informed picture of the role before evaluating personal fit.
 
-**Example question:** “Could my program-management experience translate into product operations?”
+**Key question:** What is the market actually asking for?
 
-### Stage 1: Build an experience inventory
+### 2. Hiring Simulation Prompt
 
-Capture what you have actually done—not only your job titles. Include responsibilities, decisions, constraints, collaborators, outcomes, and the scale of your work.
+Use AI to simulate hiring evaluation and surface blind spots.
 
-### Stage 2: Extract transferable capabilities
+Ask AI to review your background from the perspective of a recruiter or hiring manager. Identify what appears relevant, what may be overlooked, what creates uncertainty, and which questions or objections may arise during screening.
 
-Identify recurring capabilities demonstrated across your experience, such as influencing without authority, designing processes, managing ambiguity, analyzing data, or coordinating cross-functional work.
+The simulation is a hypothesis—not a prediction of how every employer will respond.
 
-### Stage 3: Translate capabilities into market language
+**Key question:** How might a hiring team interpret my profile?
 
-Map your experience to the language used in relevant roles and industries without exaggerating or inventing qualifications.
+### 3. Role Gap Calibration
 
-### Stage 4: Explore transition paths
+Identify transferable strengths and development areas.
 
-Generate and compare possible directions. Classify them as close adjacencies, plausible stretches, or longer-term transitions based on the available evidence.
+Compare the market lens with the hiring simulation and your experience evidence. Determine where your background already aligns and where further work may be needed. Distinguish among:
 
-### Stage 5: Simulate market evaluation
+- **Competency gaps:** capabilities you still need to develop
+- **Evidence gaps:** capabilities you may have but cannot yet demonstrate convincingly
+- **Positioning gaps:** relevant experience described in language the target audience may not recognize
+- **Exposure gaps:** limited access to the people, environments, or opportunities needed to validate the path
 
-Review the profile from the perspective of a recruiter, hiring manager, or potential collaborator. Identify likely strengths, questions, objections, and misunderstood experience.
+**Key question:** What is the real distance between my current profile and the target role?
 
-### Stage 6: Diagnose the gaps
+### 4. Transition Strategy Design
 
-Separate gaps into distinct categories:
+Generate a focused, short-term action plan aligned with market signals.
 
-- **Competency gap:** a capability you still need to develop
-- **Evidence gap:** a capability you may have, but cannot yet demonstrate convincingly
-- **Positioning gap:** relevant experience that is described in language the target audience may not recognize
-- **Exposure gap:** limited access to the people, environments, or opportunities needed to validate the path
+Turn the calibrated gaps into a small set of prioritized actions. These may include conducting targeted informational interviews, reframing an existing project as a case study, building evidence through a short project, developing one important capability, or testing applications with a carefully selected group of roles.
 
-### Stage 7: Design a transition experiment
+The plan should be time-bounded, realistic, and designed to generate new evidence.
 
-Choose a small, time-bounded action that can produce new evidence. Examples include conducting informational interviews, completing a relevant project, shadowing someone in the role, revising a portfolio case study, or applying to a carefully selected set of opportunities.
+**Key question:** What should I do next to test and strengthen this transition?
 
 ## How to use it
 
@@ -185,14 +179,12 @@ When in doubt, anonymize the material first.
 
 **Starting point:** A senior event-program manager wants to explore a move into product operations but is unsure whether their background will be taken seriously.
 
-**The simulator may help them:**
+**The simulator applies the four stages:**
 
-1. identify capabilities hidden behind the event-management title, such as cross-functional planning, operational design, stakeholder alignment, risk management, and metrics review
-2. compare those capabilities with the expectations of product-operations roles
-3. identify strong transferable evidence and areas where the connection is unclear
-4. distinguish a true product-domain competency gap from a positioning or evidence gap
-5. anticipate questions a hiring manager may ask
-6. design a small test, such as interviewing three product-operations professionals and creating a case study that reframes an existing operational project
+1. **Market Lens Analysis:** Review current product-operations roles to identify recurring responsibilities, language, capabilities, and seniority expectations.
+2. **Hiring Simulation Prompt:** Simulate how a recruiter or hiring manager might interpret the event-program-management background, including likely strengths, uncertainties, and screening questions.
+3. **Role Gap Calibration:** Identify transferable strengths—such as cross-functional planning, operational design, stakeholder alignment, risk management, and metrics review—and separate true competency gaps from evidence or positioning gaps.
+4. **Transition Strategy Design:** Create a short-term test, such as interviewing three product-operations professionals and developing a case study that reframes an existing operational project.
 
 **Result:** Not a verdict, but a clearer transition hypothesis, a more precise gap analysis, and a practical way to gather evidence before making a larger commitment.
 
@@ -221,16 +213,20 @@ Outputs should clearly distinguish:
 
 ## Guiding principle
 
-> A career transition is not a job search. It is the process of interpreting existing experience against new forms of market demand—and gathering better evidence before making a decision.
+> A career transition is not only a job search. It is the process of interpreting existing experience against new forms of market demand—and gathering better evidence before making a decision.
 
 The aim is not to predict the future. It is to help people see their experience more clearly, explore possibilities responsibly, and test the next step with less guesswork.
 
-## Created for Grace Hopper Celebration 2026
+## Created for Grace Hopper Celebration
 
-The Career Transition Simulator was created for my Grace Hopper Celebration 2026 session about using AI as a structured thinking partner for career transitions.
+The Career Transition Simulator was created for a Grace Hopper Celebration session about using AI as a structured thinking partner for career transitions.
 
 The project is intended to make the session practical, reusable, and accessible beyond the event. It can be adapted for workshops, peer-learning groups, coaching conversations, and individual reflection.
 
 Grace Hopper Celebration and its organizers are not responsible for the content or outputs of this independent project unless explicitly stated otherwise.
 
+## License
 
+<!-- Choose and add a license before publishing. Common options include MIT, Apache-2.0, and Creative Commons licenses. Confirm that the selected license fits both the software components and written framework materials in this repository. -->
+
+License: **To be determined.**
