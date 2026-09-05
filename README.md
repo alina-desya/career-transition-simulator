@@ -103,9 +103,9 @@ Compare the market lens with the hiring simulation and your experience evidence.
 
 ### 4. Transition Strategy Design
 
-Generate a focused, short-term action plan aligned with market signals.
+Prepare for a focused, short-term application experiment aligned with market signals.
 
-Turn the calibrated gaps into a small set of prioritized actions. These may include conducting targeted informational interviews, reframing an existing project as a case study, building evidence through a short project, developing one important capability, or testing applications with a carefully selected group of roles.
+Turn the calibrated gaps into no more than three prioritized actions, led by updating the CV/profile and testing a carefully selected group of roles. Add only lightweight evidence or interview preparation when it addresses a specific gap.
 
 The plan should be time-bounded, realistic, and designed to generate new evidence.
 
@@ -118,11 +118,10 @@ You can use the framework with an AI assistant or work through the stages indepe
 1. Copy the recommended input template below.
 2. Complete as much of it as you can.
 3. Ask the AI assistant to guide you through one framework stage at a time. If you do not have a target role, ask it to use discovery mode first.
-4. Review each stage before continuing. Correct assumptions, add missing context, and naturally decide whether to continue, save, pause, or stop.
+4. Review the short executive summary and real-role shortlist, correct assumptions, and choose a direction worth testing.
 5. Treat generated paths and assessments as hypotheses to investigate—not conclusions.
-6. After selecting a path, verify that comparable roles exist in your chosen location or target market.
-7. Finish by choosing one practical, preferably free or low-cost experiment and defining what you hope to learn from it.
-8. Ask for a convenient copy of the work in Markdown, Word, or PDF when supported.
+6. Use the final stage to update your CV/profile and run a small, selective application experiment. Avoid major training or portfolio commitments unless the evidence requires them.
+7. Ask for a convenient copy of the final experiment in Markdown, Word, or PDF when supported.
 
 Suggested opening prompt:
 
@@ -186,9 +185,9 @@ When in doubt, anonymize the material first.
 1. **Market Lens Analysis:** Review current product-operations roles to identify recurring responsibilities, language, capabilities, and seniority expectations.
 2. **Hiring Simulation Prompt:** Simulate how a recruiter or hiring manager might interpret the event-program-management background, including likely strengths, uncertainties, and screening questions.
 3. **Role Gap Calibration:** Identify transferable strengths—such as cross-functional planning, operational design, stakeholder alignment, risk management, and metrics review—and separate true competency gaps from evidence or positioning gaps.
-4. **Transition Strategy Design:** Create a short-term test, such as interviewing three product-operations professionals and developing a case study that reframes an existing operational project.
+4. **Transition Strategy Design:** Update the CV/profile for the target market, apply selectively to suitable roles, and add lightweight evidence only if a specific gap requires it.
 
-**Result:** Not a verdict, but a clearer transition hypothesis, a more precise gap analysis, and a practical way to gather evidence before making a larger commitment.
+**Result:** Not a verdict, but a clearer transition hypothesis, a more precise gap analysis, and a practical application experiment before making a larger commitment.
 
 ## Outputs
 

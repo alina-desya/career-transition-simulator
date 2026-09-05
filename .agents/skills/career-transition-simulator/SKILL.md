@@ -7,7 +7,7 @@ description: Help professionals discover and safely test non-obvious career dire
 
 Help the user discover and evaluate career transitions without choosing a career for them or treating an AI-generated assessment as a hiring prediction. Expand the user's options, identify plausible but non-obvious paths, and design low-risk experiments that produce better evidence before a major commitment.
 
-Run the four stages in order, using natural conversational transitions. Ask whether the user wants to correct anything before moving on, and do not proceed when the user wants to pause or stop. Preserve prior findings so each stage builds on the evidence established earlier.
+Run the four stages in order, using natural conversational transitions. Keep the user oriented around one decision: which career experiment is worth testing next. Preserve prior findings so each stage builds on the evidence established earlier. Pause only at consequential decision points: after Stage 1 to choose or revise a direction, after Stage 2 to correct the hiring interpretation, and before creating a saved final brief. If the user says to continue, do not ask for another generic approval; proceed to the next stage.
 
 ## Response length and citation rules
 
@@ -16,7 +16,7 @@ Run the four stages in order, using natural conversational transitions. Ask whet
 - Optimize for executive readability: lead with the decision-relevant point, use short paragraphs and compact bullets or tables, remove repeated context, and put caveats after the main conclusion.
 - Do not quote, restate, or cite the user's CV unless a specific detail is necessary to support a finding. Refer to confirmed experience in summarized form.
 - Cite current market sources, not the user's CV. Include only the few sources that materially support the analysis.
-- Put terminology, market signals, decisions, uncertainties, and user corrections into the checkpoint when the user approves the stage so useful work is not lost in the chat.
+- Carry forward terminology, market signals, decisions, uncertainties, and user corrections as a concise working checkpoint. Do not make the user repeat information already established.
 - Do not expose internal workflow filenames in normal conversation. Describe saved outputs by purpose, such as “your experience summary” or “your transition brief.”
 - Offer a convenient export format—Markdown, Word, or PDF when supported—and use Markdown as the quiet internal fallback.
 
@@ -49,7 +49,7 @@ Encourage the user to remove personal identifiers and confidential employer or c
 
 ## Stage 1: Market Lens Analysis
 
-Use targeted mode for a chosen role, or discovery mode when no target is obvious. In discovery mode, first cluster the user's capabilities, interests, and constraints, then map them to a small set of distinct job families. Usually present two to five options, adjusting the number to the evidence and the user's decision needs. Do not invent an emerging path to fill a quota. Ask which, if any, feels worth exploring. Include a clear “none of these” option and, if selected, generate a revised set rather than pushing the user into a path.
+Use targeted mode for a chosen role, or discovery mode when no target is obvious. In discovery mode, first cluster the user's capabilities, interests, and constraints, then map them to two to four distinct job-family hypotheses. Do not invent an emerging path to fill a quota. For each direction, include a plain-language description, why it may fit, the main uncertainty, and one or two current representative openings when available. This lets the user react to real work rather than abstract labels. Include a clear “none of these” option and, if selected, generate a revised set rather than pushing the user into a path.
 
 Analyze:
 
@@ -65,22 +65,19 @@ Analyze:
 
 Present:
 
-1. evidence sources or a limitation note
-2. a concise market interpretation
-3. recurring and variable expectations
-4. important terminology
-5. notable market signals
-6. in discovery mode, a compact comparison of the selected number of job-family directions
+1. **Executive summary:** the most promising direction(s) and why
+2. a compact comparison of two to four directions, including representative clickable openings when available
+3. the concise market interpretation and recurring expectations
+4. the main variation, terminology, and market signals that matter for the decision
+5. evidence sources or a limitation note
 
-End with a natural invitation such as: “Which of these directions, if any, feels worth exploring further?” Do not require the user to choose immediately.
-
-After the user selects a path, run a focused market verification before Stage 2: check whether comparable positions currently exist in the user's chosen location or target market, including remote or hybrid constraints. Report the search date, representative role titles, employers or sources, location pattern, and any meaningful scarcity or variation. If evidence is unavailable, label the path provisional and ask for permission to continue.
+End by asking which direction, if any, the user wants to test. If they choose one, record it and move to Stage 2 after addressing any correction. Do not run a separate duplicate verification step; Stage 2 performs the focused shortlist research.
 
 ## Stage 2: Hiring Simulation Prompt
 
 Use the Stage 1 market lens to simulate how a hiring team may interpret the user's profile.
 
-Before presenting the simulation, do a short, current search for open positions that match the selected path and the user's confirmed experience, location, work authorization needs, salary target, work-style preferences, industries to avoid, and language constraints. Present a curated shortlist of no more than five strong matches, not a large job board or exhaustive search. For each position, include the title, employer, location/work style, salary when published, visa and relocation status, one-sentence fit rationale, and a clickable direct link to the opening. Prefer employer career pages; use reputable job boards when a direct employer page is unavailable. Clearly label any field that is not stated or could not be verified, and include the search date. Exclude roles that conflict with explicit user preferences, such as casino-like companies. If fewer than five credible matches exist, show only the matches that meet the criteria and explain the limitation. Treat listings as time-sensitive leads, not guarantees that the roles remain open.
+Before presenting the simulation, do a short, current search for open positions that match the selected path and the user's confirmed experience, location, work authorization needs, salary target, work-style preferences, industries to avoid, and language constraints. Present a curated shortlist of no more than five strong matches, not a large job board or exhaustive search. For each position, include the title, employer, location/work style, salary when published, visa and relocation status, one-sentence fit rationale, and a clickable direct link to the opening. Prefer employer career pages; use reputable job boards when a direct employer page is unavailable. Clearly label any field that is not stated or could not be verified, include the search date, and exclude roles that conflict with explicit user preferences. If fewer than five credible matches exist, show only the matches that meet the criteria and explain the limitation. Treat listings as time-sensitive leads, not guarantees that the roles remain open.
 
 Evaluate only the evidence the user supplied. Consider the perspectives of both an initial recruiter screen and a hiring manager review when their concerns may differ.
 
@@ -97,18 +94,18 @@ Analyze:
 
 Present, in this order:
 
-1. a compact shortlist titled “Current openings to explore,” containing no more than five curated positions with clickable links and the fit details above
-2. likely positive signals
-3. ambiguous or overlooked signals
-4. likely concerns and their evidence
-5. probable interview or screening questions
+1. **Executive summary:** how the user currently appears positioned for the selected direction
+2. a compact shortlist titled “Current openings to explore,” containing no more than five curated positions with clickable links and the fit details above
+3. likely positive signals and overlooked transferable evidence
+4. the two or three most material concerns, with evidence
+5. the most useful screening or interview questions
 6. an overall hiring hypothesis, not a verdict
 
-End with: **How might a hiring team interpret my profile?** Answer the question directly, state that the simulation is not a prediction, then pause for the user's review.
+End with: **How might a hiring team interpret my profile?** Answer directly in one short paragraph, state that the simulation is not a prediction, and ask whether anything is inaccurate before continuing to Stage 3.
 
 ## Stage 3: Role Gap Calibration
 
-Compare the user's evidence with the market lens and hiring simulation. Identify transferable strengths and development areas without treating every missing keyword as a skill deficit.
+Compare the user's evidence with the market lens, the current openings, and the hiring simulation. Identify only the material findings that affect applications or the next experiment. Do not treat every missing keyword as a skill deficit.
 
 Classify each material finding as one of:
 
@@ -127,20 +124,20 @@ Present a compact calibration table with:
 | Finding | Type | Evidence | Priority | Implication |
 |---|---|---|---|---|
 
-Then summarize:
+Then summarize in compact bullets:
 
 1. strongest transferable advantages
 2. highest-priority development areas
 3. gaps that can be addressed mainly through clearer evidence or positioning
 4. assumptions that still require validation
 
-End with: **What is the real distance between my current profile and the target role?** Answer the question directly, then pause for the user's review.
+End with: **What is the real distance between my current profile and the target role?** Answer directly, then move to Stage 4 when the user says to continue; pause only if they want to correct or stop.
 
 ## Stage 4: Transition Strategy Design
 
 Turn the calibrated findings into a focused, short-term action plan aligned with the strongest market signals.
 
-Focus on becoming application-ready and testing the market realistically. Prioritize updating the CV and LinkedIn/profile positioning for the target roles, identifying and applying to a small set of suitable openings, and preparing lightweight evidence such as a concise case study or portfolio entry only when it addresses a specific evidence or positioning gap. Avoid courses, certifications, paid projects, major portfolio builds, or other high-effort commitments unless the user explicitly requests them and the market evidence shows they are necessary.
+Focus on becoming application-ready and testing the market realistically. Prioritize updating the CV and LinkedIn/profile positioning for the shortlisted roles, preparing targeted application materials, and applying to a small set of suitable openings. Add a lightweight case study or portfolio entry only when it addresses a specific evidence or positioning gap and can be based on existing work. Avoid courses, certifications, paid projects, major portfolio builds, or other high-effort commitments unless the user explicitly requests them and the market evidence shows they are necessary.
 
 Start with free or low-cost, reversible actions whenever possible. Do not recommend paid training, a certification, or a major financial commitment as the first action unless the user specifically requests it, the market evidence shows it is materially required, and lower-cost tests have already been considered. If training is relevant, present it as one option with cost, alternatives, and a reason it is worth considering.
 
@@ -154,21 +151,21 @@ Possible actions include:
 
 ### Stage 4 output
 
-Create a plan for the next 30–60 days containing:
+Create a practical plan for the next 30–60 days containing:
 
 | Priority | Action | Gap or signal addressed | Evidence produced | Success signal | Timing |
 |---|---|---|---|---|---|
 
 Keep the plan realistic within the user's constraints. Include:
 
-1. no more than three primary actions, with CV/application readiness as the default first action
+1. no more than three primary actions, with CV/profile revision and a selective application test as the default first action
 2. the hypothesis each action tests
 3. observable success signals
 4. a review point for deciding whether to continue, adjust, or reconsider the direction
 
-End with: **What should I do next to test and strengthen this transition?** Answer the question directly.
+End with: **What should I do next to test and strengthen this transition?** Answer in one short paragraph and give the first concrete action.
 
-Pause and ask whether the user wants to save the strategy and proceed to final synthesis. Do not assume approval.
+Ask whether the user wants to proceed to the final synthesis. Do not ask about saving a file until the synthesis has been reviewed.
 
 ## Final synthesis
 
@@ -178,6 +175,6 @@ After completing all four stages, provide a brief, executive-style synthesis. St
 2. a short list of no more than five sharp to-dos, led by CV/profile updates and a selective application test
 3. one sentence stating the main uncertainty the experiment will resolve
 
-Ask whether the user wants a final `career-transition-brief.md` created. If they agree, create it from the approved stage checkpoints and include the terminology, market sources, selected path, uncertainties, and outcomes. Confirm the saved file path.
+Ask whether the user wants a final transition brief created. If they agree, create it from the working checkpoints and include only the experiment, selected path, applicable clickable roles, short to-do list, market sources, uncertainties, and success signals. Confirm the saved file path.
 
 Do not promise employment, claim that the user is definitively qualified or unqualified, or make the final career decision for them. Do not shift into resume or cover-letter writing unless the user requests it after the simulation.
