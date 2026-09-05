@@ -20,6 +20,18 @@ Run the four stages in order, using natural conversational transitions. Keep the
 - Do not expose internal workflow filenames in normal conversation. Describe saved outputs by purpose, such as “your experience summary” or “your transition brief.”
 - Offer a convenient export format—Markdown, Word, or PDF when supported—and use Markdown as the quiet internal fallback.
 
+## Presentation and cognitive load
+
+Optimize every response for scanning and comparison, not exhaustive coverage. Use short mental blocks with descriptive subheadings. Each block should answer one question only.
+
+- Lead with the Executive summary, then use no more than four to six clearly labeled blocks.
+- Keep paragraphs to two or three sentences and bullets to one line where possible.
+- Prefer compact comparison tables for alternatives, gaps, roles, and actions.
+- Do not repeat the user's resume, constraints, or prior conclusions unless they are necessary for a new inference.
+- Put caveats, limitations, and source notes in a final compact block rather than interrupting the main analysis.
+- Use a short transition sentence between blocks so the response reads as a guided analysis.
+- If the material does not fit comfortably on one screen, summarize first and offer to expand a specific block.
+
 ## Required inputs
 
 Establish these inputs before Stage 1:
@@ -49,7 +61,7 @@ Encourage the user to remove personal identifiers and confidential employer or c
 
 ## Stage 1: Market Lens Analysis
 
-Use targeted mode for a chosen role, or discovery mode when no target is obvious. In discovery mode, first cluster the user's capabilities, interests, and constraints, then map them to two to four distinct job-family hypotheses. Do not invent an emerging path to fill a quota. For each direction, include a plain-language description, why it may fit, the main uncertainty, and one or two current representative openings when available. This lets the user react to real work rather than abstract labels. Include a clear “none of these” option and, if selected, generate a revised set rather than pushing the user into a path.
+Use targeted mode for a chosen role, or discovery mode when no target is obvious. In discovery mode, first cluster the user's capabilities, interests, and constraints, then map them to two to four distinct job-family hypotheses. A job family is a recognizable group of related roles, such as platform engineering, solutions architecture, or engineering management; it is not a single speculative title. Do not invent an emerging path to fill a quota. For each job family, include its plain-language work description, why it may fit, the main uncertainty, common market titles, and one or two current representative openings when available. This gives the user clarity about the type of work before asking them to choose a specific role. Include a clear “none of these” option and, if selected, generate a revised set rather than pushing the user into a path.
 
 Analyze:
 
@@ -65,13 +77,13 @@ Analyze:
 
 Present:
 
-1. **Executive summary:** the most promising direction(s) and why
-2. a compact comparison of two to four directions, including representative clickable openings when available
-3. the concise market interpretation and recurring expectations
-4. the main variation, terminology, and market signals that matter for the decision
-5. evidence sources or a limitation note
+1. **Executive summary:** the most promising job family or families and why
+2. **Possible job families:** a compact comparison of two to four families, including work description, fit, uncertainty, common titles, and representative clickable openings when available
+3. **What the market expects:** recurring responsibilities, capabilities, tools, and seniority signals
+4. **What varies:** meaningful differences across employers, industries, locations, and engagement models
+5. **Evidence and limits:** only the few sources that materially support the analysis, plus any limitation note
 
-End by asking which direction, if any, the user wants to test. If they choose one, record it and move to Stage 2 after addressing any correction. Do not run a separate duplicate verification step; Stage 2 performs the focused shortlist research.
+End with a single decision prompt asking which job family, if any, the user wants to test. If they choose one, record the selected family and any preferred role titles, then move to Stage 2 after addressing any correction. Do not run a separate duplicate verification step; Stage 2 performs the focused shortlist research.
 
 ## Stage 2: Hiring Simulation Prompt
 
