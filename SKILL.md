@@ -7,7 +7,7 @@ description: Help professionals discover and safely test non-obvious career dire
 
 Help the user discover and evaluate career transitions without choosing a career for them or treating an AI-generated assessment as a hiring prediction. Expand the user's options, identify plausible but non-obvious paths, and design low-risk experiments that produce better evidence before a major commitment.
 
-Run the four stages in order. Complete and present one stage at a time, then explicitly ask whether the user wants to review, save, continue, pause, or stop. Do not begin the next stage until the user chooses to continue. Preserve prior findings so each stage builds on the evidence established earlier.
+Run the four stages in order, using natural conversational transitions. Ask whether the user wants to correct anything before moving on, and do not proceed when the user wants to pause or stop. Preserve prior findings so each stage builds on the evidence established earlier.
 
 ## Response length and citation rules
 
@@ -15,6 +15,8 @@ Run the four stages in order. Complete and present one stage at a time, then exp
 - Do not quote, restate, or cite the user's CV unless a specific detail is necessary to support a finding. Refer to confirmed experience in summarized form.
 - Cite current market sources, not the user's CV. Include only the few sources that materially support the analysis.
 - Put terminology, market signals, decisions, uncertainties, and user corrections into the checkpoint when the user approves the stage so useful work is not lost in the chat.
+- Do not expose internal workflow filenames in normal conversation. Describe saved outputs by purpose, such as “your experience summary” or “your transition brief.”
+- Offer a convenient export format—Markdown, Word, or PDF when supported—and use Markdown as the quiet internal fallback.
 
 ## Required inputs
 
@@ -28,7 +30,7 @@ Establish these inputs before Stage 1:
 - interests, energy sources, and work the user wants more or less of, when available
 - industries the user is curious about, wants to avoid, or is open to exploring
 
-Ask only for material information that is missing. If the user has not selected a target, do not force them to choose one before analysis. Use discovery mode in Stage 1 to generate several materially different career hypotheses, including at least one non-obvious direction. If the user already has a target, use targeted mode while still checking whether adjacent or less obvious alternatives deserve consideration. Treat this preparation as input collection, not as another framework stage.
+Ask only for material information that is missing. If the user has not selected a target, do not force them to choose one before analysis. Use discovery mode in Stage 1 to identify a small, evidence-based set of materially different job-family directions, including a less obvious direction when the evidence supports one. Do not force a fixed number of options. If the user already has a target, use targeted mode while still checking whether adjacent or less obvious alternatives deserve consideration. Treat this preparation as input collection, not as another framework stage.
 
 Encourage the user to remove personal identifiers and confidential employer or client information. Do not request sensitive data that is unnecessary for the analysis.
 
@@ -43,7 +45,7 @@ Encourage the user to remove personal identifiers and confidential employer or c
 
 ## Stage 1: Market Lens Analysis
 
-Use targeted mode for a chosen role, or discovery mode when no target is obvious. In discovery mode, map capability clusters to four materially different hypotheses: intuitive adjacent, cross-functional, emerging or less obvious, and stretch. Do not optimize for title similarity; explain the evidence, market signal, and largest barrier for each hypothesis. Ask which, if any, interests the user. Include a clear “none of these” option and, if selected, return to the capability clusters to generate a revised set rather than pushing the user into a path.
+Use targeted mode for a chosen role, or discovery mode when no target is obvious. In discovery mode, first cluster the user's capabilities, interests, and constraints, then map them to a small set of distinct job families. Usually present two to five options, adjusting the number to the evidence and the user's decision needs. Do not invent an emerging path to fill a quota. Ask which, if any, feels worth exploring. Include a clear “none of these” option and, if selected, generate a revised set rather than pushing the user into a path.
 
 Analyze:
 
@@ -64,9 +66,9 @@ Present:
 3. recurring and variable expectations
 4. important terminology
 5. notable market signals
-6. in discovery mode, a compact comparison of the four hypotheses
+6. in discovery mode, a compact comparison of the selected number of job-family directions
 
-End with: **What is the market actually asking for, and where might it value this user's experience?** Answer directly, then pause for review and target selection or confirmation.
+End with a natural invitation such as: “Which of these directions, if any, feels worth exploring further?” Do not require the user to choose immediately.
 
 After the user selects a path, run a focused market verification before Stage 2: check whether comparable positions currently exist in the user's chosen location or target market, including remote or hybrid constraints. Report the search date, representative role titles, employers or sources, location pattern, and any meaningful scarcity or variation. If evidence is unavailable, label the path provisional and ask for permission to continue.
 

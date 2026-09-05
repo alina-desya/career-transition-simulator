@@ -6,13 +6,15 @@ Apply this protocol after the user approves the intake or a framework stage.
 
 Offer to save a compact Markdown checkpoint so the user can continue later without repeating completed work. Make the choice explicit and wait for the user's answer. Do not create or overwrite a file until the user agrees. If file creation is unavailable, offer the same content as a copyable Markdown block.
 
-Use a brief prompt such as:
+Use a brief, natural prompt such as:
 
-> Would you like me to save a concise Markdown checkpoint for this step so you can reuse it later?
+> I can save this summary so you have it outside the chat. Would you prefer Markdown, Word, or PDF?
 
 If the user declines, continue without pressure. Do not repeat the offer for that step.
 
-## Suggested filenames
+## Internal filenames
+
+Use stable internal filenames for organization, but do not mention them to the user unless they ask.
 
 - `00-experience-inventory.md`
 - `01-market-lens.md`
@@ -21,7 +23,7 @@ If the user declines, continue without pressure. Do not repeat the offer for tha
 - `04-transition-strategy.md`
 - `career-transition-brief.md`
 
-Respect a user-specified location or filename. Otherwise, save related files together in a clearly named folder when the environment permits it.
+Respect a user-specified location or filename. Otherwise, save related files together in a clearly named folder when the environment permits it. Choose a user-friendly exported name such as `career-experience-summary.docx`, `career-experience-summary.pdf`, or `career-experience-summary.md` rather than exposing the internal checkpoint name.
 
 ## Checkpoint content
 
@@ -43,7 +45,7 @@ For the Stage 1 checkpoint, always preserve the market terminology and location-
 
 ## Final brief
 
-After Stage 4, offer to create `career-transition-brief.md`. Build it from user-approved findings and saved checkpoints when available; do not rerun completed research merely to produce the file.
+After Stage 4, offer to create a final transition brief in the user's preferred supported format. Build it from user-approved findings and saved checkpoints when available; do not rerun completed research merely to produce the file.
 
 Keep the final brief approximately 800–1,200 words and include:
 

@@ -21,6 +21,7 @@ When the user provides a CV:
 7. Invite optional examples from hobbies, volunteering, caregiving periods, community work, courses, experiments, and personal projects. Ask what the user made, learned, improved, or organized—not merely the activity's name.
 8. Confirm the user's current work context and desired timing without inferring it from CV dates. Give them the option to describe it generally.
 9. Ask which industries interest them, which they want to avoid, and whether they are open to discovering paths outside their current industry.
+9. Ask which industries interest them, which they want to avoid, and whether they are open to discovering paths outside their current industry.
 
 Do not infer skills, performance, reasons for employment gaps, personal identity, or personal circumstances. Do not repeat contact details or other identifiers that the analysis does not need.
 
@@ -42,23 +43,14 @@ When the user has no CV, explain that brief answers are sufficient. Ask these qu
 12. What constraints should a realistic transition respect?
 13. Do you already have a target role, or do you want the framework to discover possibilities?
 14. Which industries interest you, which would you avoid, and are you open to paths outside your current industry?
+14. Which industries interest you, which would you avoid, and are you open to paths outside your current industry?
 
 Summarize the answers as an experience inventory and ask the user to confirm it.
 
 ## Intake output
 
-Present:
+Do not recite a long list of CV facts. Give the user a concise working summary in plain language, covering only their capabilities, the kinds of problems and environments they know, interests and constraints, important uncertainties, and whether the next step should explore job families or examine a role already in mind.
 
-- confirmed facts
-- likely capability themes, labeled as interpretations
-- missing or ambiguous evidence
-- current location, desired markets, and location flexibility
-- relevant non-CV evidence from personal projects or other activities
-- current work context and desired timing, using only the detail the user chose to share
-- goals and constraints
-- industry interests, exclusions, and openness to cross-industry paths
-- whether Stage 1 will use targeted or discovery mode
+Label interpretations and uncertainties clearly, but do not make the user confirm every extracted fact. Invite natural corrections, for example: “Here’s the picture I’m working with. What would you change or add before we explore directions?”
 
-Do not begin Stage 1 until the user confirms the inventory.
-
-After confirmation, ask explicitly whether the user wants to save `00-experience-inventory.md`. Save it only after consent, then ask whether they want to continue to Stage 1, pause, or stop.
+Once the user is satisfied, acknowledge that the working profile is ready and naturally ask whether they would like a copy saved for their records. Do not mention internal filenames. If they want one, offer Markdown, Word, or PDF when supported, create the selected format, and report the convenient user-facing file name and path. Then ask whether they would like to explore directions now or pause.

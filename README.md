@@ -72,7 +72,7 @@ Each stage builds on the previous one. The goal is not to generate an instant ca
 
 ### 1. Market Lens Analysis
 
-Understand how a target role is positioned in current market demand—or discover plausible directions when no target has been chosen. Discovery produces distinct adjacent, cross-functional, emerging or less obvious, and stretch hypotheses grounded in the user's evidence and market signals.
+Understand how a target role is positioned in current market demand—or discover plausible directions when no target has been chosen. Discovery produces a small, evidence-based set of distinct job-family directions—usually two to five—grounded in the user's capabilities, interests, constraints, and market signals. It does not force a fixed number or invent options to fill a quota.
 
 Examine current job descriptions, recurring responsibilities, required capabilities, common terminology, seniority expectations, and relevant industry signals. The aim is to build a market-informed picture of the role before evaluating personal fit.
 
@@ -118,16 +118,16 @@ You can use the framework with an AI assistant or work through the stages indepe
 1. Copy the recommended input template below.
 2. Complete as much of it as you can.
 3. Ask the AI assistant to guide you through one framework stage at a time. If you do not have a target role, ask it to use discovery mode first.
-4. Review each stage before continuing. Correct assumptions, add missing context, and explicitly choose whether to continue, save, pause, or stop.
+4. Review each stage before continuing. Correct assumptions, add missing context, and naturally decide whether to continue, save, pause, or stop.
 5. Treat generated paths and assessments as hypotheses to investigate—not conclusions.
 6. After selecting a path, verify that comparable roles exist in your chosen location or target market.
 7. Finish by choosing one practical, preferably free or low-cost experiment and defining what you hope to learn from it.
-8. Approve the checkpoints and final brief if you want the work saved as Markdown files.
+8. Ask for a convenient copy of the work in Markdown, Word, or PDF when supported.
 
 Suggested opening prompt:
 
 ```text
-Act as a structured career-transition thinking partner. Use the Career Transition Simulator framework and guide me through one stage at a time. If I have no target role, use discovery mode to surface four materially different career hypotheses, including a non-obvious path grounded in my experience and market signals. Distinguish facts, interpretations, assumptions, and market evidence; do not choose a career for me. At the end, help me design a small, low-risk experiment to test the direction I select.
+Act as a structured career-transition thinking partner. Use the Career Transition Simulator framework and guide me through one stage at a time. If I have no target role, use discovery mode to surface a small, evidence-based set of distinct job-family directions, including a non-obvious path only when the evidence supports it. Distinguish facts, interpretations, assumptions, and market evidence; do not choose a career for me. At the end, help me design a small, low-risk experiment to test the direction I select.
 ```
 
 ## Recommended input
