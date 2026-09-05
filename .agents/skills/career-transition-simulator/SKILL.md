@@ -86,7 +86,25 @@ Use this wording pattern when discussing a transition or gap:
 
 ## Proactive discovery and fallback intake
 
-If no usable CV or profile is available, ask the smallest useful set of questions:
+### Clarity-first mode
+
+Use clarity-first mode when the user says they are unsure, stuck, open to anything, burned out, returning after a break, or unable to name a target. Do not ask them to choose a career direction immediately. Start by reducing pressure:
+
+> “You do not need to know your next career yet. We’ll look for patterns in what you have done, what kinds of problems you can tolerate or enjoy, and what your next opportunity needs to accommodate. I’ll propose a few directions in plain language and you can correct or compare them.”
+
+Offer a simple starting choice, while continuing if the user does not choose one:
+
+- help me identify patterns in my experience
+- show me possible directions
+- help me leave my current field
+- find work that fits my life now
+- test something without committing
+
+Use plain-language work patterns before job-family labels. For example: improving systems, solving customer problems, organizing delivery, analyzing information, explaining complex topics, creating things, supporting people, or coordinating decisions. Translate those patterns into market job families only after the user can recognize the work.
+
+If the user cannot choose among the proposed directions, do not repeat the same choice prompt. Compare the top two, recommend a small parallel test, or ask one concrete contrast question such as: “Would you rather spend more time improving how work happens or helping decide what should be built?”
+
+If no usable CV or profile is available, ask the smallest useful set of questions. In clarity-first mode, provide examples with each question and accept short answers:
 
 1. What have you done repeatedly, paid or unpaid?
 2. What problems do people rely on you to solve?
@@ -95,7 +113,9 @@ If no usable CV or profile is available, ask the smallest useful set of question
 5. What has changed since your last role, if anything?
 6. What must the next opportunity accommodate?
 
-Do not wait for answers to every question before offering value. Build a provisional experience map with three labels: confirmed, inferred, and unknown. Then propose initial job-family hypotheses or experiments. Replace broad prompts such as “What career do you want?” with a recommendation plus correction path: “My provisional starting hypothesis is X because of A and B; Y is also plausible; the main uncertainty is C.”
+Do not wait for answers to every question before offering value. Build a provisional experience map with three labels: confirmed, inferred, and unknown. Then propose two or three plain-language directions, rank them provisionally, and give one small test for each. Replace broad prompts such as “What career do you want?” with a recommendation plus correction path: “My provisional starting hypothesis is X because of A and B; Y is also plausible; the main uncertainty is C.”
+
+The user may choose “I’m not ready to choose.” In that case, continue with comparison or a two-direction experiment. Choosing a direction is a hypothesis for testing, not a commitment.
 
 Use an access-track label throughout the analysis:
 
@@ -107,7 +127,7 @@ For immigration, use precise terms such as employer-specific work permit, LMIA s
 
 ## Stage 1: Market Lens Analysis
 
-Use targeted mode for a chosen role, or discovery mode when no target is obvious. In discovery mode, first cluster the user's capabilities, interests, and constraints, then map them to two to four distinct job-family hypotheses. A job family is a recognizable group of related roles, such as platform engineering, solutions architecture, or engineering management; it is not a single speculative title. Do not invent an emerging path to fill a quota. For each job family, include its plain-language work description, why it may fit, the main uncertainty, common market titles, and one or two current representative openings when available. This gives the user clarity about the type of work before asking them to choose a specific role. Include a clear “none of these” option and, if selected, generate a revised set rather than pushing the user into a path.
+Use targeted mode for a chosen role, clarity-first mode when the user lacks career clarity, and discovery mode when the user can provide enough direction to compare paths. In clarity-first mode, first identify work patterns, then map them to two or three distinct job-family hypotheses. A job family is a recognizable group of related roles, such as platform engineering, solutions architecture, or engineering management; it is not a single speculative title. Describe the work in plain language before giving market titles. Do not invent an emerging path to fill a quota. For each direction, include why it may fit, the main uncertainty, and one low-cost experiment. Include “I’m not ready to choose” and “none of these” as valid options.
 
 Analyze:
 

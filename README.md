@@ -18,7 +18,7 @@ They may have valuable experience but struggle to see how it translates beyond t
 
 Most AI-supported job-search workflows begin after a target role has already been chosen. They focus on rewriting resumes, drafting cover letters, or preparing interview answers.
 
-The Career Transition Simulator starts earlier. It can begin with a role the user is considering, or with their experience and constraints when no target is obvious.
+The Career Transition Simulator starts earlier. It can begin with a role the user is considering, or with their experience and constraints when no target is obvious. When the user lacks career clarity, it begins with plain-language work patterns and small comparisons rather than asking them to choose a job title immediately.
 
 It helps you use AI as a structured thinking partner to explore possible directions, examine how the market may interpret your background, and decide what to investigate next.
 
@@ -123,7 +123,7 @@ You can use the framework with an AI assistant or work through the stages indepe
 
 1. Copy the recommended input template below, or provide rough notes instead.
 2. Complete as much of it as you can; do not wait for a perfect CV.
-3. Ask the AI assistant to guide you through one framework stage at a time. If you do not have a target role, ask it to use proactive discovery mode.
+3. Ask the AI assistant to guide you through one framework stage at a time. If you do not have a target role or feel unsure, ask it to use clarity-first mode.
 4. Review the short executive summary and real-role shortlist, correct assumptions, and choose a direction worth testing.
 5. Treat generated paths and assessments as hypotheses to investigate—not conclusions.
 6. Use the final stage to update your CV/profile and run a small, selective application experiment. Avoid major training or portfolio commitments unless the evidence requires them.
