@@ -2,7 +2,13 @@
 
 An open AI-assisted framework that helps professionals explore career transitions, translate their experience into market language, assess role fit, identify meaningful gaps, and design low-risk next-step experiments.
 
-The Career Transition Simulator uses a structured, step-by-step conversation to help you think more clearly before committing to a new role, industry, or professional direction.
+The Career Transition Simulator uses a structured, evidence-aware conversation to help you think more clearly before committing to a new role, industry, or professional direction.
+
+## MVP status
+
+This is a working MVP of a product intended to improve continuously. It is not a finished career oracle: market evidence changes, users arrive with different levels of information, and the quality of a transition hypothesis improves through repeated experiments and feedback. The current version prioritizes a useful first analysis, explicit uncertainty, real-world constraints, and a small next test.
+
+The simulator can work from a recent CV, an old CV, a LinkedIn-style history, project notes, or a short narrative. When evidence is incomplete, it should label assumptions and ask only for the smallest missing information needed to move forward.
 
 ## Why this exists
 
@@ -64,7 +70,7 @@ The simulator supports decisions; it does not make them for you.
 
 The simulator uses a reverse-prompting approach. Instead of asking AI a broad question such as “What career should I pursue?”, you begin with evidence from your experience, preferences, and constraints. If you have a target role, the simulator evaluates it. If you do not, it maps your capabilities to several materially different market hypotheses, including less obvious paths.
 
-Before beginning, define your transition question and provide an experience inventory. Include responsibilities, decisions, constraints, collaborators, outcomes, and the scale of your work—not only job titles. This information is an input to the framework, rather than an additional stage.
+Before beginning, provide whatever evidence you have: responsibilities, decisions, constraints, collaborators, outcomes, and the scale of your work—not only job titles. A polished or recent CV is not required. The model should make provisional hypotheses from incomplete information, show what is confirmed or uncertain, and propose a low-cost next test rather than blocking on missing details.
 
 Each stage builds on the previous one. The goal is not to generate an instant career verdict, but to develop a transition hypothesis grounded in market signals and personal evidence.
 
@@ -115,9 +121,9 @@ The plan should be time-bounded, realistic, and designed to generate new evidenc
 
 You can use the framework with an AI assistant or work through the stages independently.
 
-1. Copy the recommended input template below.
-2. Complete as much of it as you can.
-3. Ask the AI assistant to guide you through one framework stage at a time. If you do not have a target role, ask it to use discovery mode first.
+1. Copy the recommended input template below, or provide rough notes instead.
+2. Complete as much of it as you can; do not wait for a perfect CV.
+3. Ask the AI assistant to guide you through one framework stage at a time. If you do not have a target role, ask it to use proactive discovery mode.
 4. Review the short executive summary and real-role shortlist, correct assumptions, and choose a direction worth testing.
 5. Treat generated paths and assessments as hypotheses to investigate—not conclusions.
 6. Use the final stage to update your CV/profile and run a small, selective application experiment. Avoid major training or portfolio commitments unless the evidence requires them.
@@ -126,7 +132,7 @@ You can use the framework with an AI assistant or work through the stages indepe
 Suggested opening prompt:
 
 ```text
-Act as a structured career-transition thinking partner. Use the Career Transition Simulator framework and guide me through one stage at a time. If I have no target role, use discovery mode to surface a small, evidence-based set of distinct job-family directions, including a non-obvious path only when the evidence supports it. Distinguish facts, interpretations, assumptions, and market evidence; do not choose a career for me. At the end, help me design a small, low-risk experiment to test the direction I select.
+Act as a proactive, structured career-transition thinking partner. Use the Career Transition Simulator framework and guide me through one stage at a time. Use any CV, old profile, rough notes, projects, education, volunteer work, or narrative I provide; do not require a polished or recent CV. If evidence is incomplete, build a provisional profile labeled confirmed, inferred, and unknown, ask only the smallest useful questions, and still offer two or three evidence-based directions, a recommendation, and the lowest-cost next test. Distinguish facts, interpretations, assumptions, market evidence, and access constraints; do not choose a career for me. At the end, help me design a small, low-risk experiment to test the direction I select.
 ```
 
 ## Recommended input
@@ -161,7 +167,19 @@ Roles or directions I am considering, if any:
 What I most want to learn from this simulation:
 ```
 
-You do not need perfect answers. Concrete examples are more useful than polished language.
+You do not need perfect answers. Concrete examples are more useful than polished language. You can answer only the questions that are relevant to your situation.
+
+If you have no current CV, start with:
+
+```text
+What I have done repeatedly, paid or unpaid:
+Problems people rely on me to solve:
+Decisions or responsibilities I have owned:
+Work that gave me energy:
+Work I want less of:
+What has changed since my last role:
+What my next opportunity must accommodate:
+```
 
 ## Privacy notes
 
@@ -219,6 +237,8 @@ The simulator should keep stage responses concise, avoid unnecessary repetition 
 > A career transition is not only a job search. It is the process of interpreting existing experience against new forms of market demand—and gathering better evidence before making a decision.
 
 The aim is not to predict the future or recommend the most obvious job title. It is to help people see their experience more clearly, expand plausible directions, and test a selected next step with less guesswork and limited downside.
+
+The product should evolve through use. New role patterns, access constraints, user corrections, and experiment outcomes should improve future versions of the framework without turning the output into a definitive judgment.
 
 ## Created for Grace Hopper Celebration
 
