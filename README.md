@@ -118,9 +118,11 @@ You can use the framework with an AI assistant or work through the stages indepe
 1. Copy the recommended input template below.
 2. Complete as much of it as you can.
 3. Ask the AI assistant to guide you through one framework stage at a time. If you do not have a target role, ask it to use discovery mode first.
-4. Review each stage before continuing. Correct assumptions and add missing context.
+4. Review each stage before continuing. Correct assumptions, add missing context, and explicitly choose whether to continue, save, pause, or stop.
 5. Treat generated paths and assessments as hypotheses to investigate—not conclusions.
-6. Finish by choosing one practical experiment and defining what you hope to learn from it.
+6. After selecting a path, verify that comparable roles exist in your chosen location or target market.
+7. Finish by choosing one practical, preferably free or low-cost experiment and defining what you hope to learn from it.
+8. Approve the checkpoints and final brief if you want the work saved as Markdown files.
 
 Suggested opening prompt:
 
@@ -210,6 +212,8 @@ Outputs should clearly distinguish:
 - interpretations based on those facts
 - assumptions that need validation
 - possible actions the user may choose to take
+
+The simulator should keep stage responses concise, avoid unnecessary repetition of CV content, preserve market terminology in the saved Stage 1 checkpoint, and ask before moving to the next stage or creating files.
 
 ## Guiding principle
 

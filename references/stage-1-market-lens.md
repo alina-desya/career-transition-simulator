@@ -41,6 +41,8 @@ Reject options that are merely different titles for the same work. Do not force 
 
 Ask the user to select one hypothesis for the remaining stages. The user may request a comparison of two, but keep each assessment distinct.
 
+Include “none of these” as an explicit choice. If selected, ask what feels wrong or missing, revise the capability clusters and market search, and generate a new set rather than treating selection as mandatory.
+
 ## Stage output
 
 Present:
@@ -54,4 +56,6 @@ Present:
 
 End by answering: **What is the market actually asking for, and where might it value this user's experience?** Then pause for review and target selection or confirmation.
 
-After the user approves the stage, offer to save `01-market-lens.md` following [artifacts.md](artifacts.md).
+After a path is selected, verify that comparable roles exist in the user's chosen location or target market. Check current postings or other attributable market evidence, record the search date, and summarize role titles, employers or sources, location pattern, and remote/hybrid availability. This location-specific verification must happen before Stage 2.
+
+After the user approves the stage and any location verification, ask explicitly whether they want to save `01-market-lens.md`. The saved checkpoint must include the selected path, terminology, market signals, location evidence, sources, uncertainties, and the user's decision. Then ask whether they want to continue to Stage 2, pause, or stop.

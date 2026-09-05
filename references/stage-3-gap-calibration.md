@@ -29,4 +29,4 @@ Then summarize:
 
 End by answering: **What is the real distance between my current profile and the target role?** Then pause for review.
 
-After the user approves the stage, offer to save `03-role-gap-calibration.md` following [artifacts.md](artifacts.md).
+After the user approves the stage, ask explicitly whether they want to save `03-role-gap-calibration.md`. Include the terminology or positioning translations that matter, the calibrated findings, priorities, assumptions, and the user's corrections. Then ask whether they want to continue to Stage 4, pause, or stop.

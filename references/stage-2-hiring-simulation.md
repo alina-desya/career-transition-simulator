@@ -27,4 +27,4 @@ Present:
 
 End by answering: **How might a hiring team interpret my profile?** State the limits of the simulation, then pause for review.
 
-After the user approves the stage, offer to save `02-hiring-simulation.md` following [artifacts.md](artifacts.md).
+After the user approves the stage, ask explicitly whether they want to save `02-hiring-simulation.md`. Include the concise findings, likely questions, evidence used, and the user's corrections. Then ask whether they want to continue to Stage 3, pause, or stop.

@@ -7,7 +7,14 @@ description: Help professionals discover and safely test non-obvious career dire
 
 Help the user discover and evaluate career transitions without choosing a career for them or treating an AI-generated assessment as a hiring prediction. Expand the user's options, identify plausible but non-obvious paths, and design low-risk experiments that produce better evidence before a major commitment.
 
-Run the four stages in order. Complete and present one stage at a time, then ask the user to review or correct it before continuing. Preserve prior findings so each stage builds on the evidence established earlier.
+Run the four stages in order. Complete and present one stage at a time, then explicitly ask whether the user wants to review, save, continue, pause, or stop. Do not begin the next stage until the user chooses to continue. Preserve prior findings so each stage builds on the evidence established earlier.
+
+## Response length and citation rules
+
+- Keep each stage response concise: normally 300–500 words, excluding a compact table and source links. Use a shorter response when the evidence is simple.
+- Do not quote, restate, or cite the user's CV unless a specific detail is necessary to support a finding. Refer to confirmed experience in summarized form.
+- Cite current market sources, not the user's CV. Include only the few sources that materially support the analysis.
+- Put terminology, market signals, decisions, uncertainties, and user corrections into the checkpoint when the user approves the stage so useful work is not lost in the chat.
 
 ## Required inputs
 
@@ -19,6 +26,7 @@ Establish these inputs before Stage 1:
 - known constraints or non-negotiables
 - location or target market when it affects role expectations
 - interests, energy sources, and work the user wants more or less of, when available
+- industries the user is curious about, wants to avoid, or is open to exploring
 
 Ask only for material information that is missing. If the user has not selected a target, do not force them to choose one before analysis. Use discovery mode in Stage 1 to generate several materially different career hypotheses, including at least one non-obvious direction. If the user already has a target, use targeted mode while still checking whether adjacent or less obvious alternatives deserve consideration. Treat this preparation as input collection, not as another framework stage.
 
@@ -35,7 +43,7 @@ Encourage the user to remove personal identifiers and confidential employer or c
 
 ## Stage 1: Market Lens Analysis
 
-Use targeted mode for a chosen role, or discovery mode when no target is obvious. In discovery mode, map capability clusters to four materially different hypotheses: intuitive adjacent, cross-functional, emerging or less obvious, and stretch. Do not optimize for title similarity; explain the evidence, market signal, and largest barrier for each hypothesis, then ask the user to select one before Stage 2.
+Use targeted mode for a chosen role, or discovery mode when no target is obvious. In discovery mode, map capability clusters to four materially different hypotheses: intuitive adjacent, cross-functional, emerging or less obvious, and stretch. Do not optimize for title similarity; explain the evidence, market signal, and largest barrier for each hypothesis. Ask which, if any, interests the user. Include a clear “none of these” option and, if selected, return to the capability clusters to generate a revised set rather than pushing the user into a path.
 
 Analyze:
 
@@ -59,6 +67,8 @@ Present:
 6. in discovery mode, a compact comparison of the four hypotheses
 
 End with: **What is the market actually asking for, and where might it value this user's experience?** Answer directly, then pause for review and target selection or confirmation.
+
+After the user selects a path, run a focused market verification before Stage 2: check whether comparable positions currently exist in the user's chosen location or target market, including remote or hybrid constraints. Report the search date, representative role titles, employers or sources, location pattern, and any meaningful scarcity or variation. If evidence is unavailable, label the path provisional and ask for permission to continue.
 
 ## Stage 2: Hiring Simulation Prompt
 
@@ -123,6 +133,8 @@ Turn the calibrated findings into a focused, short-term action plan aligned with
 
 Prioritize actions that generate evidence or reduce uncertainty. Avoid long generic lists, unnecessary credentials, and advice that is not connected to a finding from Stages 1–3.
 
+Start with free or low-cost, reversible actions whenever possible. Do not recommend paid training, a certification, or a major financial commitment as the first action unless the user specifically requests it, the market evidence shows it is materially required, and lower-cost tests have already been considered. If training is relevant, present it as one option with cost, alternatives, and a reason it is worth considering.
+
 Possible actions include:
 
 - targeted informational interviews
@@ -148,6 +160,8 @@ Keep the plan realistic within the user's constraints. Include:
 
 End with: **What should I do next to test and strengthen this transition?** Answer the question directly.
 
+Pause and ask whether the user wants to save the strategy and proceed to final synthesis. Do not assume approval.
+
 ## Final synthesis
 
 After completing all four stages, provide a brief synthesis containing:
@@ -157,5 +171,7 @@ After completing all four stages, provide a brief synthesis containing:
 - most consequential uncertainty
 - highest-priority next action
 - what new evidence should inform the next decision
+
+Ask whether the user wants a final `career-transition-brief.md` created. If they agree, create it from the approved stage checkpoints and include the terminology, market sources, selected path, uncertainties, and outcomes. Confirm the saved file path.
 
 Do not promise employment, claim that the user is definitively qualified or unqualified, or make the final career decision for them. Do not shift into resume or cover-letter writing unless the user requests it after the simulation.

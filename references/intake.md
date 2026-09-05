@@ -20,6 +20,7 @@ When the user provides a CV:
 6. Ask about current and desired locations, willingness to relocate, and remote or hybrid preferences because these define the market Stage 1 should research.
 7. Invite optional examples from hobbies, volunteering, caregiving periods, community work, courses, experiments, and personal projects. Ask what the user made, learned, improved, or organized—not merely the activity's name.
 8. Confirm the user's current work context and desired timing without inferring it from CV dates. Give them the option to describe it generally.
+9. Ask which industries interest them, which they want to avoid, and whether they are open to discovering paths outside their current industry.
 
 Do not infer skills, performance, reasons for employment gaps, personal identity, or personal circumstances. Do not repeat contact details or other identifiers that the analysis does not need.
 
@@ -40,6 +41,7 @@ When the user has no CV, explain that brief answers are sufficient. Ask these qu
 11. Have you done personal projects, volunteering, community work, hobbies, courses, or informal experiments that involved building, organizing, learning, communicating, or solving problems?
 12. What constraints should a realistic transition respect?
 13. Do you already have a target role, or do you want the framework to discover possibilities?
+14. Which industries interest you, which would you avoid, and are you open to paths outside your current industry?
 
 Summarize the answers as an experience inventory and ask the user to confirm it.
 
@@ -54,8 +56,9 @@ Present:
 - relevant non-CV evidence from personal projects or other activities
 - current work context and desired timing, using only the detail the user chose to share
 - goals and constraints
+- industry interests, exclusions, and openness to cross-industry paths
 - whether Stage 1 will use targeted or discovery mode
 
 Do not begin Stage 1 until the user confirms the inventory.
 
-After confirmation, offer to save `00-experience-inventory.md` following [artifacts.md](artifacts.md), then continue according to the user's preference.
+After confirmation, ask explicitly whether the user wants to save `00-experience-inventory.md`. Save it only after consent, then ask whether they want to continue to Stage 1, pause, or stop.

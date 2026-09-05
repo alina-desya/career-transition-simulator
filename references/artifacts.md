@@ -4,7 +4,7 @@ Apply this protocol after the user approves the intake or a framework stage.
 
 ## Ask before saving
 
-Offer to save a compact Markdown checkpoint so the user can continue later without repeating completed work. Do not create or overwrite a file until the user agrees. If file creation is unavailable, offer the same content as a copyable Markdown block.
+Offer to save a compact Markdown checkpoint so the user can continue later without repeating completed work. Make the choice explicit and wait for the user's answer. Do not create or overwrite a file until the user agrees. If file creation is unavailable, offer the same content as a copyable Markdown block.
 
 Use a brief prompt such as:
 
@@ -39,6 +39,8 @@ Do not save the full conversation, repeated explanations, motivational language,
 
 Aim for approximately 300–600 words per checkpoint. Use compact tables where they improve clarity. Prefer relevance over reaching a word count.
 
+For the Stage 1 checkpoint, always preserve the market terminology and location-specific role verification; these are core outputs, not optional background. For every checkpoint, record the user's approval, corrections, selected or rejected hypotheses, and agreed next step.
+
 ## Final brief
 
 After Stage 4, offer to create `career-transition-brief.md`. Build it from user-approved findings and saved checkpoints when available; do not rerun completed research merely to produce the file.
@@ -54,4 +56,4 @@ Keep the final brief approximately 800–1,200 words and include:
 7. unresolved assumptions and decision criteria
 8. source links
 
-The final brief is a working decision document, not a transcript or definitive career recommendation. Ask before creating it and before overwriting any existing version.
+The final brief is a working decision document, not a transcript or definitive career recommendation. Ask explicitly after Stage 4 whether the user wants it created, and ask again before overwriting any existing version. When created, report the exact saved path and summarize what it contains.
