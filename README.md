@@ -6,7 +6,9 @@ The Career Transition Simulator uses a structured, evidence-aware conversation t
 
 ## MVP status
 
-This is a working MVP of a product intended to improve continuously. It is not a finished career oracle: market evidence changes, users arrive with different levels of information, and the quality of a transition hypothesis improves through repeated experiments and feedback. The current version prioritizes a useful first analysis, explicit uncertainty, real-world constraints, and a small next test.
+This is a working MVP testing the hypothesis that AI can be used as a structured, evidence-aware, and safer thinking partner for exploring possible career paths before making a major commitment. It is not a finished career oracle: market evidence changes, users arrive with different levels of information, and the quality of a transition hypothesis improves through repeated experiments and feedback.
+
+This project is experimental. The skill, prompts, conversation flow, and guidance are subject to change as the hypothesis is tested and the system is improved. The current version prioritizes explicit uncertainty, real-world constraints, user correction, and small reversible experiments.
 
 The simulator can work from a recent CV, an old CV, a LinkedIn-style history, project notes, or a short narrative. When evidence is incomplete, it should label assumptions and ask only for the smallest missing information needed to move forward.
 
@@ -44,6 +46,12 @@ It may be especially useful for:
 - people whose responsibilities have outgrown their formal job titles
 - professionals navigating changes caused by automation or AI
 
+## Purpose and limitations
+
+This project tests a method for using AI to support career exploration. It is not a validated counseling or assessment instrument, and its outputs should be treated as hypotheses for reflection and investigation rather than as professional judgments.
+
+The Career Transition Simulator should not replace career counseling, psychotherapy, coaching, legal or immigration advice, financial advice, medical care, employment services, or other professional support. Seek appropriately qualified professional help when a decision involves specialized expertise, significant financial or legal consequences, mental health, safety, or other high-stakes concerns.
+
 ## What it is and what it is not
 
 ### It is
@@ -58,6 +66,8 @@ It may be especially useful for:
 ### It is not
 
 - a guarantee of employment or career success
+- a validated career assessment or counseling service
+- a substitute for qualified career counseling, coaching, employment services, or other professional aid
 - a replacement for human judgment, coaching, mentorship, or professional advice
 - a definitive assessment of your ability or potential
 - a personality test or automated career decision-maker
@@ -123,7 +133,7 @@ You can use the framework with an AI assistant or work through the stages indepe
 
 1. Copy the recommended input template below, or provide rough notes instead.
 2. Complete as much of it as you can; do not wait for a perfect CV.
-3. Ask the AI assistant to guide you through one framework stage at a time. If you do not have a target role or feel unsure, ask it to use clarity-first mode.
+3. Let the AI assistant run a brief Discovery check first. It should confirm whether you want a similar role, a career change, pattern discovery, work-fit exploration, or general exploration before using your CV to generate directions. If you do not have a target role or feel unsure, it should use clarity-first mode.
 4. Review the short executive summary and real-role shortlist, correct assumptions, and choose a direction worth testing.
 5. Treat generated paths and assessments as hypotheses to investigate—not conclusions.
 6. Use the final stage to update your CV/profile and run a small, selective application experiment. Avoid major training or portfolio commitments unless the evidence requires them.
@@ -132,7 +142,7 @@ You can use the framework with an AI assistant or work through the stages indepe
 Suggested opening prompt:
 
 ```text
-Act as a proactive, structured career-transition thinking partner. Use the Career Transition Simulator framework and guide me through one stage at a time. Use any CV, old profile, rough notes, projects, education, volunteer work, or narrative I provide; do not require a polished or recent CV. If evidence is incomplete, build a provisional profile labeled confirmed, inferred, and unknown, ask only the smallest useful questions, and still offer two or three evidence-based directions, a recommendation, and the lowest-cost next test. Distinguish facts, interpretations, assumptions, market evidence, and access constraints; do not choose a career for me. At the end, help me design a small, low-risk experiment to test the direction I select.
+Act as a proactive, structured career-transition thinking partner. Use the Career Transition Simulator framework and guide me through one stage at a time. Start with a brief personal Discovery check: confirm what I want help with, whether I have a target or feel unsure, and which location/work setup matters. Do not infer intent, readiness, target market, or preferences from my CV. Use any CV, old profile, rough notes, projects, education, volunteer work, or narrative I provide; do not require a polished or recent CV. Do not produce market analysis, rankings, or job shortlists until the Discovery check establishes the applicable mode. If evidence is incomplete, build a provisional profile labeled confirmed, inferred, and unknown, ask only the smallest useful questions, and offer directions only after discovery. Distinguish facts, interpretations, assumptions, market evidence, and access constraints; do not choose a career for me. At the end, help me design a small, low-risk experiment to test the direction I select.
 ```
 
 ## Recommended input
