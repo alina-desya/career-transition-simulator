@@ -8,6 +8,10 @@ When purpose is missing, ask one orientation question, with at most two addition
 
 Ask about the target market or work setup when needed for specific research; accept multiple markets, remote work, an undecided answer, or a declined question. General pattern exploration does not require a country. If a material answer is unavailable, explain the resulting limit and offer a provisional or broader analysis.
 
+## CV-led intake
+
+Follow SKILL.md's default CV-led conversation. Read the CV, check document coverage and currentness without treating old dates as a deficit, and summarize skills/background/experience briefly. Bundle only missing currentness, purpose/direction, and desired market/work arrangement questions. If all are already known, begin market analysis. Direction may be undecided. This initial clarification and a later option-selection decision are different steps; neither authorizes a repeated evidence interview.
+
 ## Evidence prompts
 
 Use these as a question bank, not a questionnaire. Ask only what cannot be learned from the existing context:

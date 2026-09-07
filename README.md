@@ -6,13 +6,13 @@ An open AI-assisted framework that helps people explore career directions, trans
 
 The Career Transition Simulator uses a structured, evidence-aware conversation to help you think more clearly before committing to a new role, industry, or professional direction.
 
-## MVP status
+## Proof-of-concept status
 
-This is a working MVP testing the hypothesis that AI can be used as a structured, evidence-aware, and safer thinking partner for exploring possible career paths before making a major commitment. It is not a finished career oracle: market evidence changes, users arrive with different levels of information, and the quality of a transition hypothesis improves through repeated experiments and feedback.
+This project tests a simple hypothesis: market analysis, a hiring perspective, gap calibration, and a short-term plan can help people see possibilities and take a useful next step instead of feeling stuck.
 
-This project is experimental. The skill, prompts, conversation flow, and guidance are subject to change as the hypothesis is tested and the system is improved. The current version prioritizes explicit uncertainty, real-world constraints, user correction, and small reversible experiments.
+Success is a clearer direction or comparison, a realistic understanding of what transfers and what remains uncertain, and one practical action. It is not a finished career product or a validated assessment. The four stages guide the conversation; they are not a questionnaire the user must complete.
 
-The simulator can work from a recent CV, an old CV, a LinkedIn-style history, project notes, or a short narrative. When evidence is incomplete, it should label assumptions and ask only for the smallest missing information needed to move forward.
+Start with a CV or a short description of experience. The assistant clarifies the user's interests and desired market, explores relevant options, and develops a provisional hypothesis and lightweight plan. A concise final file is optional.
 
 ## Why this exists
 

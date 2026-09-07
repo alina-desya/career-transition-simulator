@@ -4,9 +4,9 @@ This file owns the final-synthesis content and all export behavior. Use findings
 
 ## Final synthesis
 
-Summarize the experiment in plain language:
+Summarize the transition in plain language. Aim for a sharp one-page brief (about 300–500 words), shorter when possible. Use clear descriptive subheadings and retain only decision-useful information:
 
-1. Purpose and the selected direction or alternatives being compared.
+1. Purpose, stated work preferences and desired market, and the selected hypothesis or alternatives being compared. Preserve relevant options and why the user selected, rejected, or deferred them; do not invent preferences.
 2. Feasibility and everyday work-fit findings, including what remains unknown and which uncertainty the experiment tests.
 3. The actions from Stage 4, with timing, learning signals, review criteria, and what observations to bring back. For a returning user, include the revised hypothesis and decision.
 4. Relevant market sources and opportunity leads, if researched, including their dates and unresolved material conditions.

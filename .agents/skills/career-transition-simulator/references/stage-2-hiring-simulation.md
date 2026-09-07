@@ -10,6 +10,16 @@ Present up to five credible leads, preferring direct employer sources. Include t
 
 If current search is unavailable, there are no suitable openings, or vacancies are irrelevant to the request, omit the shortlist and explain the evidence being used instead. A representative role description, internal scope, or client brief can support a provisional simulation. Never imply that a sample is an open vacancy or that an unverified lead is actionable without checking its material conditions.
 
+## Vacancy verification
+
+Representative descriptions support analysis; live vacancies are optional and cannot block completion. Search for current openings when requested. Keep vacancy status separate from candidate eligibility:
+
+- **Discovered/unverified:** search result, aggregator, old description, or inaccessible employer page. A recent crawl date, Apply label, or JavaScript-only shell is not confirmation.
+- **Verified accepting applications:** the employer application flow is accessible, identifies the same role and location, accepts applications, and shows no closed notice. Record the verification date; inspect without submitting.
+- **Closed:** employer flow or user evidence says unavailable. Remove from actionable leads.
+
+If verification is unavailable, label the lead unverified and do not recommend it as confirmed active. Continue using role requirements. A demo fixture must be explicitly labeled as a dated reference scenario, never a live vacancy or current market evidence.
+
 ## Output
 
 State the overall hiring hypothesis, strongest relevant signals, overlooked transferable evidence, and only the material concerns or screening questions with their basis. Separate capability concerns from evidence, positioning, and access issues. A missing fact is a question rather than proof of a deficit. Show the shortlist only if one was researched.

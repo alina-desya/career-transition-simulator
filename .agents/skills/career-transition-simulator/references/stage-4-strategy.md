@@ -20,8 +20,12 @@ Choose an experiment that addresses the uncertainty that matters most. If feasib
 
 ## Output
 
+Present the path under the communication structure in SKILL.md. Explain how the proposed action advances the user's stated goal, then make the first step visually distinct from later actions. The fields below guide the content; use short sections or a compact table according to readability, not a mandatory worksheet.
+
 | Priority | Action and hypothesis | Evidence produced | Success or learning signal | Timing and effort |
 |---|---|---|---|---|
+
+Follow the central continuation and recovery rules in SKILL.md for acknowledgments and side questions.
 
 Choose timing from the user's availability and urgency rather than imposing a universal duration. Include a first concrete step and a review point with criteria to continue, adjust, or stop. An experiment can succeed by ruling out an unsuitable direction; recruiter responses are only relevant for an application experiment.
 
