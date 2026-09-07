@@ -1,36 +1,42 @@
 # Stage 4: Transition Strategy Design
 
-Turn calibrated findings into a focused 30–60 day plan aligned with market signals and the user's constraints.
+Design a focused experiment from the findings available. If the user took the exploration route, use the Stage 1 work patterns and uncertainties directly; no hiring simulation or gap table is required.
 
-Prioritize actions that generate evidence, reduce uncertainty, or test whether the work fits. Avoid generic task lists, unnecessary credentials, and actions unconnected to findings from earlier stages.
+Choose no more than three primary actions according to purpose and readiness:
 
-Start with free or low-cost, reversible actions. Do not put paid training or certification first unless the user requests it, market evidence shows it is materially required, and lower-cost tests have been considered. If training is relevant, show alternatives and the cost/benefit rationale.
+| Purpose | Possible experiment |
+|---|---|
+| Unsure or comparing directions | Try a small representative activity for each direction and compare interest, effort, and learning |
+| Evaluating work fit | Observe or sample the work in a way compatible with the user's constraints |
+| Internal move | Map responsibilities and, if feasible, explore a small collaboration or a conversation about scope |
+| Independent work | Explore a potential customer's problem or test a small service concept |
+| Ready for employment applications | Adapt relevant evidence or application materials and test a small set of suitable opportunities |
 
-Possible actions include:
+These are examples, not required channels. Do not assume access to LinkedIn, online job boards, a portfolio, a professional network, or existing work that can be shared. Adapt activities to the user's resources and local context.
 
-- targeted practitioner interviews
-- a small project, case study, or portfolio artifact
-- reframing existing evidence in recognized market language
-- focused capability development
-- exposure to the target function or industry
-- a limited application test
+Start with free or low-cost, reversible actions. Explain evidence-supported training, licensing, or credential prerequisites when relevant even if the user did not know to ask. Before proposing a major commitment, compare lower-cost ways to test fit and clarify the prerequisite, likely cost, and alternatives. Do not prescribe training for an unverified gap.
 
-## Stage output
+Choose an experiment that addresses the uncertainty that matters most. If feasibility is supported but work fit is unknown, sample a representative activity and ask what the user would want to repeat or avoid. If interest is clear but feasibility is uncertain, test the relevant capability or access question. Employer interest is not evidence of personal enjoyment, and disliking an activity is not evidence of inability. A single experiment need not test both dimensions.
 
-Create:
+## Output
 
-| Priority | Action | Gap or signal addressed | Evidence produced | Success signal | Timing |
-|---|---|---|---|---|---|
+| Priority | Action and hypothesis | Evidence produced | Success or learning signal | Timing and effort |
+|---|---|---|---|---|
 
-Include:
+Choose timing from the user's availability and urgency rather than imposing a universal duration. Include a first concrete step and a review point with criteria to continue, adjust, or stop. An experiment can succeed by ruling out an unsuitable direction; recruiter responses are only relevant for an application experiment.
 
-1. no more than three primary actions
-2. the hypothesis each action tests
-3. observable success signals
-4. a review point for choosing to continue, adjust, or reconsider
+Give a short return prompt with the plan: “When you come back, share what you tried, what happened, what you wanted more or less of, and any practical constraints you discovered.” Accept partial results; no saved file or completed worksheet is required.
 
-Keep the plan time-bounded and realistic. Do not assume the user can spend money, disclose personal information, leave current employment, or contact particular people unless their constraints support it.
+Keep proposed actions distinct from performing them. Follow the main workflow into the final synthesis.
 
-End by answering: **What should I do next to test and strengthen this transition?**
+## Review experiment results
 
-After the user approves the stage, naturally offer to save the transition plan for later. Do not mention internal filenames. Include actions, hypotheses, evidence to produce, success signals, timing, costs, and alternatives. Offer Markdown, Word, or PDF when supported, then ask whether they want to create a final synthesis or pause. The main workflow must offer the final brief after synthesis.
+Use this procedure when the user returns with observations or feedback:
+
+1. Recover the original hypothesis, action, and review criteria from the conversation or a supplied brief. If unavailable, ask for only the intended test and what happened; do not restart the whole simulation.
+2. Separate what happened from interpretations. Consider what the activity actually tested and whether time, access, task design, or other conditions limited the evidence. An unfinished experiment or silence after applications is not proof of inability or lack of demand.
+3. Update feasibility and work fit independently. State which assumption is strengthened, weakened, or still unresolved, with the observation supporting that change. Avoid generalizing one sample to an entire career.
+4. Recommend continuing, adjusting the experiment or direction, or stopping this test, with a reason and a correction opportunity. An inconclusive result can justify a smaller or different test; a useful negative result can justify stopping without a replacement career.
+5. Update the next action and review criteria only where needed. Revisit earlier stages or refresh research only if the new evidence changes their assumptions. Summarize the revised hypothesis in the conversation and follow the shared export policy.
+
+A compact review can use: **original hypothesis → observation → changed assumption → next decision**.

@@ -1,56 +1,27 @@
-# Intake: Build a Confirmed Experience Inventory
+# Intake: Establish Purpose and Usable Evidence
 
-Complete intake before Stage 1. Use either CV mode or short-interview mode. Do not require both.
+Use the conversation and any supplied material first. Do not infer intent, readiness, desired market, work authorization, or preferences from a CV address, job title, employer, move, or career break. Acknowledge usable material only if it was actually provided and read; report unreadable portions rather than guessing.
 
-## CV mode
+When purpose is missing, ask one orientation question, with at most two additional questions whose answers change the next step. For example:
 
-When the user provides a CV:
+> What would help most right now: exploring possibilities, evaluating a direction, or finding work that fits your life?
 
-1. Read the file and state if any portion is unreadable or appears incomplete.
-2. Extract only explicit information into:
-   - roles, employers, and dates
-   - responsibilities and problems handled
-   - accomplishments and measurable outcomes
-   - customers, collaborators, and stakeholders
-   - tools, methods, and domain knowledge
-   - education, certifications, and projects
-3. Flag ambiguous titles, vague claims, missing scope, and accomplishments without context.
-4. Separate explicit facts from interpretations.
-5. Ask the user to correct the inventory and add relevant experience the CV omits.
-6. Ask about current and desired locations, willingness to relocate, and remote or hybrid preferences because these define the market Stage 1 should research.
-7. Invite optional examples from hobbies, volunteering, caregiving periods, community work, courses, experiments, and personal projects. Ask what the user made, learned, improved, or organized—not merely the activity's name.
-8. Confirm the user's current work context and desired timing without inferring it from CV dates. Give them the option to describe it generally.
-9. Ask which industries interest them, which they want to avoid, and whether they are open to discovering paths outside their current industry.
-9. Ask which industries interest them, which they want to avoid, and whether they are open to discovering paths outside their current industry.
+Ask about the target market or work setup when needed for specific research; accept multiple markets, remote work, an undecided answer, or a declined question. General pattern exploration does not require a country. If a material answer is unavailable, explain the resulting limit and offer a provisional or broader analysis.
 
-Do not infer skills, performance, reasons for employment gaps, personal identity, or personal circumstances. Do not repeat contact details or other identifiers that the analysis does not need.
+## Evidence prompts
 
-## Short-interview mode
+Use these as a question bank, not a questionnaire. Ask only what cannot be learned from the existing context:
 
-When the user has no CV, explain that brief answers are sufficient. Ask these questions in one compact group, then follow up only where material information is missing:
+- What have you done or learned, paid or unpaid? Examples might include study, making or repairing things, supporting people, organizing an activity, or solving an everyday problem.
+- What did you personally handle, and what happened? Accept qualitative examples or feedback; numerical achievements are optional.
+- What work interests you, gives you energy, or feels unsuitable?
+- What must the next opportunity accommodate, and what timing feels realistic?
+- Which fields or work arrangements interest you, or should be avoided?
 
-1. What roles or kinds of work have you done, and for roughly how long?
-2. What problems did people rely on you to solve?
-3. What did you own, improve, build, or coordinate?
-4. Who did you work with or influence?
-5. What outcomes, feedback, or measures show your impact?
-6. Which tools, systems, methods, or subject areas do you know?
-7. What work gives you energy, and what do you want less of?
-8. To help me suggest a realistic pace, which best describes your current situation? For example, you might be working, actively looking, exploring quietly, studying, or preparing to return after time away. Share only what feels relevant.
-9. Is there a particular timeline or level of urgency you want the plan to respect?
-10. Where are you currently located, which locations or markets interest you, and would you relocate or work remotely or hybrid?
-11. Have you done personal projects, volunteering, community work, hobbies, courses, or informal experiments that involved building, organizing, learning, communicating, or solving problems?
-12. What constraints should a realistic transition respect?
-13. Do you already have a target role, or do you want the framework to discover possibilities?
-14. Which industries interest you, which would you avoid, and are you open to paths outside your current industry?
-14. Which industries interest you, which would you avoid, and are you open to paths outside your current industry?
+A first-time worker may start with interests and learning experiences. Do not require prior responsibilities, employers, formal education, or demonstrable outcomes before offering a small learning experiment.
 
-Summarize the answers as an experience inventory and ask the user to confirm it.
+## Working profile
 
-## Intake output
+Extract relevant experience and build a concise working profile using the shared evidence labels. Mention only interpretations or uncertainties that need correction, rather than reciting a CV or requiring approval of every fact. Proceed once there is enough context for the next useful step; there is no separate inventory approval or save gate.
 
-Do not recite a long list of CV facts. Give the user a concise working summary in plain language, covering only their capabilities, the kinds of problems and environments they know, interests and constraints, important uncertainties, and whether the next step should explore job families or examine a role already in mind.
-
-Label interpretations and uncertainties clearly, but do not make the user confirm every extracted fact. Invite natural corrections, for example: “Here’s the picture I’m working with. What would you change or add before we explore directions?”
-
-Once the user is satisfied, acknowledge that the working profile is ready and naturally ask whether they would like a copy saved for their records. Do not mention internal filenames. If they want one, offer Markdown, Word, or PDF when supported, create the selected format, and report the convenient user-facing file name and path. Then ask whether they would like to explore directions now or pause.
+For clarity-first mode, describe activities before job titles: organizing delivery, caring for people, making things, investigating problems, explaining information, or maintaining systems. Let the user recognize or reject the work. If they cannot choose, ask a concrete contrast or propose a small comparison experiment. Do not fabricate personal fit when there is no supporting evidence.

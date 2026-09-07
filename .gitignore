@@ -1,0 +1,7 @@
+# Personal inputs and generated session artifacts belong outside version control.
+/personal/
+/tmp/
+/output/
+.DS_Store
+__pycache__/
+*.pyc

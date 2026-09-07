@@ -1,5 +1,7 @@
 # Career Transition Brief
 
+Historical fictional demo, not a record of a complete simulation. This scenario assumes Maya explicitly chose the US market and an application experiment; those preferences must not be inferred from a CV address. The links and review date below are retained from the original example and have not been reverified. Work authorization remains unresolved, so these are conditional leads rather than a confirmed actionable shortlist.
+
 ## Experiment
 
 Test whether an experienced international SaaS customer-support and care professional can transition into US implementation and customer-onboarding roles. The experiment is designed to measure employer response after the experience is repositioned using US-market implementation language.

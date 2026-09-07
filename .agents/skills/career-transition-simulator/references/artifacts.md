@@ -1,61 +1,28 @@
-# Saving Progress and Final Artifacts
+# Final Synthesis and Optional Exports
 
-Apply this protocol after the user approves the intake or a framework stage.
+This file owns the final-synthesis content and all export behavior. Use findings already established in the conversation; saved checkpoints are optional.
 
-## Ask before saving
+## Final synthesis
 
-Offer to save a compact Markdown checkpoint so the user can continue later without repeating completed work. Make the choice explicit and wait for the user's answer. Do not create or overwrite a file until the user agrees. If file creation is unavailable, offer the same content as a copyable Markdown block.
+Summarize the experiment in plain language:
 
-Use a brief, natural prompt such as:
+1. Purpose and the selected direction or alternatives being compared.
+2. Feasibility and everyday work-fit findings, including what remains unknown and which uncertainty the experiment tests.
+3. The actions from Stage 4, with timing, learning signals, review criteria, and what observations to bring back. For a returning user, include the revised hypothesis and decision.
+4. Relevant market sources and opportunity leads, if researched, including their dates and unresolved material conditions.
 
-> I can save this summary so you have it outside the chat. Would you prefer Markdown, Word, or PDF?
+Include hiring or gap findings only when those stages were performed and they affect the plan. Do not require a selected career or a list of vacancies. Keep the synthesis proportional to the experiment; do not add tasks or repeat every prior table to reach a word count.
 
-If the user declines, continue without pressure. Do not repeat the offer for that step.
+## Export behavior
 
-## Internal filenames
+Keep stage outputs in the conversation. Do not ask whether to save, export, or choose a file format after intake or individual stages. Export an intermediate result only when the user requests it.
 
-Use stable internal filenames for organization, but do not mention them to the user unless they ask.
+After the final synthesis, offer a brief at most once per simulation, and only if the user has not already requested or declined an export. If a file was requested, create it without another generic confirmation. Otherwise, wait for agreement before writing. Returning with results does not reset a declined offer; the user can request an updated export at any time.
 
-- `00-experience-inventory.md`
-- `01-market-lens.md`
-- `02-hiring-simulation.md`
-- `03-role-gap-calibration.md`
-- `04-transition-strategy.md`
-- `career-transition-brief.md`
+Respect the requested filename, location, and supported format. If none is specified, use a descriptive filename and Markdown. Offer Word or PDF only when supported; if file creation is unavailable, provide copyable content. Do not silently create internal files or overwrite an existing unrelated file. For an existing brief, follow explicit update authorization or ask before replacing it.
 
-Respect a user-specified location or filename. Otherwise, save related files together in a clearly named folder when the environment permits it. Choose a user-friendly exported name such as `career-experience-summary.docx`, `career-experience-summary.pdf`, or `career-experience-summary.md` rather than exposing the internal checkpoint name.
+## Saved content
 
-## Checkpoint content
+A checkpoint needs only the step and date, relevant user context, findings, terminology, sources, uncertainties, corrections, decisions, and next step. A final brief uses the synthesis above. Exclude unnecessary identifiers, confidential details, and conversation transcripts.
 
-Each checkpoint should stand on its own and contain only information needed to resume or reuse the work:
-
-- step name and date
-- confirmed user context relevant to the step
-- primary findings
-- evidence and sources, when applicable
-- material assumptions or uncertainties
-- user corrections and decisions
-- agreed next step
-
-Do not save the full conversation, repeated explanations, motivational language, unnecessary personal information, or rejected ideas unless a rejection materially affects later reasoning.
-
-Aim for approximately 300–600 words per checkpoint. Use compact tables where they improve clarity. Prefer relevance over reaching a word count.
-
-For the Stage 1 checkpoint, always preserve the market terminology and location-specific role verification; these are core outputs, not optional background. For every checkpoint, record the user's approval, corrections, selected or rejected hypotheses, and agreed next step.
-
-## Final brief
-
-After Stage 4, offer to create a final transition brief in the user's preferred supported format. Build it from user-approved findings and saved checkpoints when available; do not rerun completed research merely to produce the file.
-
-Keep the final brief approximately 800–1,200 words and include:
-
-1. confirmed starting context and constraints
-2. selected transition hypothesis
-3. strongest market signals
-4. hiring simulation summary
-5. transferable strengths and priority gaps
-6. 30–60 day strategy
-7. unresolved assumptions and decision criteria
-8. source links
-
-The final brief is a working decision document, not a transcript or definitive career recommendation. Ask explicitly after Stage 4 whether the user wants it created, and ask again before overwriting any existing version. When created, report the exact saved path and summarize what it contains.
+Keep research dates intact; exporting does not make old listings current. Refresh evidence only if the user requests current leads or its age materially affects the next action. Report the actual saved path and any format limitation.

@@ -1,6 +1,8 @@
 # Career Transition Simulator
 
-An open AI-assisted framework that helps professionals explore career transitions, translate their experience into market language, assess role fit, identify meaningful gaps, and design low-risk next-step experiments.
+Created and owned by **Alina Desiatnikova**.
+
+An open AI-assisted framework that helps people explore career directions, translate their experience into market language, assess role fit, identify meaningful gaps, and design low-risk next-step experiments.
 
 The Career Transition Simulator uses a structured, evidence-aware conversation to help you think more clearly before committing to a new role, industry, or professional direction.
 
@@ -26,7 +28,11 @@ It helps you use AI as a structured thinking partner to explore possible directi
 
 ## Who this is for
 
-This framework is designed for professionals asking questions such as:
+This framework is open to people from any country and any background, including those starting their first career or drawing on informal and unpaid experience. No country, nationality, citizenship, education level, or work authorization is a prerequisite for participation. Eligibility for a particular opportunity is assessed separately when relevant.
+
+The conversation follows the user's language and chosen market. Local titles, sources, work arrangements, and salary currencies matter; a country, relocation plan, CV, or LinkedIn account is not required to begin exploring.
+
+It supports questions such as:
 
 - What else could I do with my experience?
 - Which parts of my background are transferable?
@@ -38,6 +44,7 @@ This framework is designed for professionals asking questions such as:
 
 It may be especially useful for:
 
+- people starting their first career or moving from informal work
 - mid-career professionals
 - people changing roles, industries, or functions
 - professionals returning after a career break
@@ -67,7 +74,6 @@ The Career Transition Simulator should not replace career counseling, psychother
 
 - a guarantee of employment or career success
 - a validated career assessment or counseling service
-- a substitute for qualified career counseling, coaching, employment services, or other professional aid
 - a replacement for human judgment, coaching, mentorship, or professional advice
 - a definitive assessment of your ability or potential
 - a personality test or automated career decision-maker
@@ -82,13 +88,17 @@ The simulator uses a reverse-prompting approach. Instead of asking AI a broad qu
 
 Before beginning, provide whatever evidence you have: responsibilities, decisions, constraints, collaborators, outcomes, and the scale of your work—not only job titles. A polished or recent CV is not required. The model should make provisional hypotheses from incomplete information, show what is confirmed or uncertain, and propose a low-cost next test rather than blocking on missing details.
 
-Each stage builds on the previous one. The goal is not to generate an instant career verdict, but to develop a transition hypothesis grounded in market signals and personal evidence.
+The stages build on the evidence already available. A targeted hiring evaluation can use all four stages. An exploration-only session can move from work patterns and market hypotheses directly to a comparison experiment and synthesis. Hiring simulation, current vacancies, and choosing one career are optional. When current research is unavailable, the assistant can use supplied descriptions or clearly labeled provisional analysis.
+
+The maintained skill starts at [SKILL.md](.agents/skills/career-transition-simulator/SKILL.md), which owns routing and shared rules and links to stage details. This README is a product overview.
+
+Every direction has two separate questions: could this be feasible, and would its everyday work suit you? Experience and market demand help assess feasibility; your preferences and experience of the activities help assess work fit. Either can remain unknown. Being good at something does not mean you want more of it.
 
 ## The four-stage Reverse Prompting Framework
 
 ### 1. Market Lens Analysis
 
-Understand how a target role is positioned in current market demand—or discover plausible directions when no target has been chosen. Discovery produces a small, evidence-based set of distinct job-family directions—usually two to five—grounded in the user's capabilities, interests, constraints, and market signals. It does not force a fixed number or invent options to fill a quota.
+Understand how a target role is positioned in current market demand—or discover plausible directions when no target has been chosen. Discovery produces a small, evidence-based set of distinct directions grounded in the user's experience, interests, constraints, and market signals. It does not force a fixed number or invent options to fill a quota.
 
 Examine current job descriptions, recurring responsibilities, required capabilities, common terminology, seniority expectations, and relevant industry signals. The aim is to build a market-informed picture of the role before evaluating personal fit.
 
@@ -96,7 +106,7 @@ Examine current job descriptions, recurring responsibilities, required capabilit
 
 ### 2. Hiring Simulation Prompt
 
-Use AI to simulate hiring evaluation and surface blind spots.
+When a hiring perspective is relevant to the user's goal, use AI to simulate evaluation and surface blind spots. This stage owns focused research into current openings when useful; a live shortlist is not required to complete the analysis.
 
 Ask AI to review your background from the perspective of a recruiter or hiring manager. Identify what appears relevant, what may be overlooked, what creates uncertainty, and which questions or objections may arise during screening.
 
@@ -108,20 +118,22 @@ The simulation is a hypothesis—not a prediction of how every employer will res
 
 Identify transferable strengths and development areas.
 
-Compare the market lens with the hiring simulation and your experience evidence. Determine where your background already aligns and where further work may be needed. Distinguish among:
+Compare the market lens with your experience evidence and any hiring simulation performed. Determine where your background already aligns and where further work may be needed. Distinguish among:
 
 - **Competency gaps:** capabilities you still need to develop
 - **Evidence gaps:** capabilities you may have but cannot yet demonstrate convincingly
 - **Positioning gaps:** relevant experience described in language the target audience may not recognize
 - **Exposure gaps:** limited access to the people, environments, or opportunities needed to validate the path
 
+Keep hiring uncertainties and opportunity-specific access constraints separate from competency gaps. Missing information does not establish a lack of ability.
+
 **Key question:** What is the real distance between my current profile and the target role?
 
 ### 4. Transition Strategy Design
 
-Prepare for a focused, short-term application experiment aligned with market signals.
+Design an experiment that fits the user's purpose, readiness, available time, and resources.
 
-Turn the calibrated gaps into no more than three prioritized actions, led by updating the CV/profile and testing a carefully selected group of roles. Add only lightweight evidence or interview preparation when it addresses a specific gap.
+Turn the most important findings or open questions into no more than three prioritized actions. These may involve comparing work activities, exploring an internal move, testing a service concept, or making selective applications when ready. CV/profile updates are one option, not a universal first step.
 
 The plan should be time-bounded, realistic, and designed to generate new evidence.
 
@@ -133,22 +145,23 @@ You can use the framework with an AI assistant or work through the stages indepe
 
 1. Copy the recommended input template below, or provide rough notes instead.
 2. Complete as much of it as you can; do not wait for a perfect CV.
-3. Let the AI assistant run a brief Discovery check first. It should confirm whether you want a similar role, a career change, pattern discovery, work-fit exploration, or general exploration before using your CV to generate directions. If you do not have a target role or feel unsure, it should use clarity-first mode.
-4. Review the short executive summary and real-role shortlist, correct assumptions, and choose a direction worth testing.
+3. Share what you want help with. The assistant should clarify only missing purpose or material context. It uses targeted mode for a known direction, discovery for comparing possibilities, or clarity-first mode when you want help recognizing work patterns.
+4. Review the analysis, correct assumptions, and select a direction, compare alternatives, or remain undecided.
 5. Treat generated paths and assessments as hypotheses to investigate—not conclusions.
-6. Use the final stage to update your CV/profile and run a small, selective application experiment. Avoid major training or portfolio commitments unless the evidence requires them.
+6. Use the final stage to design a small experiment and a review point. Applications are optional. Consider major training or portfolio commitments only after clarifying their relevance and lower-cost ways to test fit.
 7. Ask for a convenient copy of the final experiment in Markdown, Word, or PDF when supported.
+8. Return with what you tried, what happened, what you wanted more or less of, and any constraints you discovered. The assistant revisits the original hypothesis, updates feasibility and work fit separately, and helps you continue, adjust, or stop the test without restarting intake. Partial or inconclusive results are valid inputs.
 
 Suggested opening prompt:
 
 ```text
-Act as a proactive, structured career-transition thinking partner. Use the Career Transition Simulator framework and guide me through one stage at a time. Start with a brief personal Discovery check: confirm what I want help with, whether I have a target or feel unsure, and which location/work setup matters. Do not infer intent, readiness, target market, or preferences from my CV. Use any CV, old profile, rough notes, projects, education, volunteer work, or narrative I provide; do not require a polished or recent CV. Do not produce market analysis, rankings, or job shortlists until the Discovery check establishes the applicable mode. If evidence is incomplete, build a provisional profile labeled confirmed, inferred, and unknown, ask only the smallest useful questions, and offer directions only after discovery. Distinguish facts, interpretations, assumptions, market evidence, and access constraints; do not choose a career for me. At the end, help me design a small, low-risk experiment to test the direction I select.
+Use the Career Transition Simulator to help me explore or evaluate career directions. Start with my purpose and whatever background I can share, asking only for missing context that matters. Help me understand the evidence and uncertainty, then design a small experiment suited to my readiness. I may want to compare possibilities without choosing a career or applying for jobs.
 ```
 
 ## Recommended input
 
 ```text
-Current role or professional identity:
+Current activities, learning, or role, if any:
 
 Years and types of experience:
 
@@ -187,7 +200,7 @@ Problems people rely on me to solve:
 Decisions or responsibilities I have owned:
 Work that gave me energy:
 Work I want less of:
-What has changed since my last role:
+What has changed in my situation, if relevant:
 What my next opportunity must accommodate:
 ```
 
@@ -203,6 +216,8 @@ Career materials can contain sensitive personal and organizational information. 
 - share only the information needed for the analysis
 
 When in doubt, anonymize the material first.
+
+Keep personal inputs in a local `personal/` folder and generated work in `tmp/` or `output/`; these locations are ignored for new files. Already tracked fictional demo artifacts remain in the repository. Ignore rules do not remove files from Git history.
 
 ## Example use case
 
@@ -240,7 +255,7 @@ Outputs should clearly distinguish:
 - assumptions that need validation
 - possible actions the user may choose to take
 
-The simulator should keep stage responses concise, avoid unnecessary repetition of CV content, preserve market terminology in the saved Stage 1 checkpoint, and ask before moving to the next stage or creating files.
+The simulator keeps responses concise and carries forward findings in the conversation. It pauses for missing decisions or consequential corrections and honors requests to continue. It never prompts to save after intake or individual stages; intermediate exports are available on request. It offers a final brief at most once per simulation, respects a previous decline, and creates an already requested file without asking again. Saving checkpoints is not required to proceed or return with results.
 
 ## Guiding principle
 
@@ -260,6 +275,4 @@ Grace Hopper Celebration and its organizers are not responsible for the content 
 
 ## License
 
-<!-- Choose and add a license before publishing. Common options include MIT, Apache-2.0, and Creative Commons licenses. Confirm that the selected license fits both the software components and written framework materials in this repository. -->
-
-License: **To be determined.**
+License: [MIT](LICENSE).

@@ -1,30 +1,17 @@
-# Stage 2: Hiring Simulation Prompt
+# Stage 2: Hiring Simulation
 
-Use the confirmed Stage 1 market lens to simulate how a hiring team may interpret the user's profile. This is a hypothesis, not a prediction.
+Use this stage for a hiring perspective on a target. Evaluate supplied experience against the Stage 1 market lens, keeping inferred capability explicitly uncertain. Distinguish recruiter screening from a hiring manager's assessment when their concerns differ. For an internal move or independent work, adapt the audience to the relevant manager or client; do not assume an external recruiter exists.
 
-Evaluate only confirmed evidence. Consider recruiter and hiring-manager perspectives separately when their concerns differ.
+## Focused opportunity research
 
-Analyze:
+When current openings are useful to the user's goal, this stage owns the focused search. Reuse Stage 1 sources where relevant. Use confirmed target markets and material preferences, asking only for unresolved information that changes the search. A salary target or authorization detail is not a mandatory intake field for everyone.
 
-- immediately relevant strengths
-- transferable experience that may be overlooked
-- signals of level, scope, and impact
-- likely uncertainties, objections, or screening risks
-- questions a hiring team may ask
-- experience obscured by titles or non-market language
+Present up to five credible leads, preferring direct employer sources. Include title, employer, location/work arrangement, a fit rationale, direct link, and search date. Include salary with currency and pay period when published. Add language, authorization, relocation, or other eligibility details only when material. Distinguish stated requirements from unknown fields and apply the shared access rules.
 
-Do not treat protected or personal circumstances as evidence of reduced capability. If an employment gap may create a screening question, describe it as a possible hiring uncertainty and preserve the user's control over disclosure.
+If current search is unavailable, there are no suitable openings, or vacancies are irrelevant to the request, omit the shortlist and explain the evidence being used instead. A representative role description, internal scope, or client brief can support a provisional simulation. Never imply that a sample is an open vacancy or that an unverified lead is actionable without checking its material conditions.
 
-## Stage output
+## Output
 
-Present:
+State the overall hiring hypothesis, strongest relevant signals, overlooked transferable evidence, and only the material concerns or screening questions with their basis. Separate capability concerns from evidence, positioning, and access issues. A missing fact is a question rather than proof of a deficit. Show the shortlist only if one was researched.
 
-1. likely positive signals
-2. ambiguous or overlooked signals
-3. likely concerns and the evidence behind them
-4. probable screening or interview questions
-5. an overall hiring hypothesis, not a verdict
-
-End by answering: **How might a hiring team interpret my profile?** State the limits of the simulation, then pause for review.
-
-After the user approves the stage, naturally offer to save the hiring-perspective summary for later. Do not mention internal filenames. Include the concise findings, likely questions, evidence used, and the user's corrections. Offer Markdown, Word, or PDF when supported, then ask whether they want to continue to the gap review or pause.
+Make clear that this is a simulation, not a prediction. Follow the main workflow's correction opportunity and transitions; do not introduce an additional save or approval sequence.
