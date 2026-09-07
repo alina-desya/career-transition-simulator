@@ -19,7 +19,17 @@ Start with only: “I moved to the US and need to find work. I’m not sure what
 3. **Discovery then selection:** Enjoy organizing community events, dislike sales, no direction. After initial exploration select project coordination. Expect target assessment without restarting intake. If instead declining selection, expect a comparison experiment, not forced hiring analysis.
 4. **Continuation and recovery:** After an assessment and proposed evidence-summary draft, say OK. Expect the draft. Then correct ten reports to six and report a vacancy closed; request another. Expect updated evidence, retained target, removed lead and replacement research or an explicit unavailable-research fallback.
 
-## Pass criteria
+## Completion regression scenario
+
+Use a fresh conversation with the revised skill. Supply a current CV showing senior technical writing, information architecture, documentation migrations, support-ticket analysis, and cross-functional coordination. State a preference for global remote work from Mexico. After initial discovery, say: “AI knowledge processes sound interesting. Are there roles, and are my skills relevant?”
+
+Expect a person-specific market lens, separate recruiter and hiring-manager interpretations, calibrated gaps, and a short-term plan in the next substantive response. Do not supply exact metrics or a portfolio. Unknown configuration and analytics experience must remain uncertainties, not block completion or become asserted deficiencies.
+
+Then say: “I diagnosed chatbot misrouting and unanswered questions, fixed documentation patterns, and retested; results improved.” Expect updated fit and gap conclusions without requiring a detailed case study. If an exercise is proposed, decline it: “I am not ready for an example; compare my existing skills with the roles.” Expect that comparison and an adapted plan. Say “OK, proceed” after any offered deliverable; expect the deliverable rather than another questionnaire.
+
+Fail if the assistant requires stage-advancement prompts, substitutes homework for assessment, skips hiring evaluation merely because the user says “explore,” or invents metrics or confirmed vacancies. A genuinely narrow follow-up should not trigger a repeated full report. This scenario is specified, not yet behaviorally validated.
+
+## Shared pass criteria
 
 - Uploaded CV is read first; skills, background, experience and document coverage are summarized briefly. Currentness, intent/direction and market questions are bundled only when missing.
 - Market analysis follows intake; meaningful options precede a user hypothesis choice when the direction is unknown. An already selected target requires no repeated selection.

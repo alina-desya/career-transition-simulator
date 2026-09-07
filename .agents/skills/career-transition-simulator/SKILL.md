@@ -15,6 +15,16 @@ Clarify what the user wants to change or explore and their desired market/locati
 
 ## Four-stage framework
 
+### Completion rule
+
+Once the conversation contains a target role or role family and usable experience, complete all four stages in the next substantive response. A CV or a short qualitative account is usable evidence; exact metrics, a detailed case study, tool inventories, and a portfolio are not prerequisites. Read the four stage references and use existing context. If market analysis was already delivered, summarize its relevant conclusion and complete the remaining stages rather than restarting intake.
+
+Make completion visible with four concise stage labels (bold labels if headings are unavailable). Each must contain findings about this person: market requirements, recruiter and hiring-manager interpretations, calibrated strengths and gaps, and a focused plan with a timeframe and learning criterion. Stage names or a list of roles alone are not completion. Brevity should compress the analysis, not omit stages.
+
+Unknown details belong in the assessment as evidence gaps or uncertainties. Pause only when missing information prevents a useful provisional assessment, such as having no usable account of experience at all; bundle that essential clarification. Optional questions may follow the completed assessment but must not gate it. Research limitations do not block a provisional assessment.
+
+Before ending an assessment response, check that all four outcomes are present, unless the user explicitly requested a narrower scope. An undecided user may compare directions first. Skip hiring simulation only when the user explicitly wants exploration without hiring evaluation; saying they are exploring careers is not by itself a request to omit it.
+
 ### 1. Market Lens Analysis
 
 Read [Stage 1](references/stage-1-market-lens.md). Research what relevant roles involve and what employers in the chosen market expect. Connect these requirements to the user's experience and preferences. If the direction is unclear, offer a few distinct possibilities and let the user choose, compare, or revise. If they already have a target, examine it directly. Frame the resulting direction as a hypothesis to explore.
@@ -35,7 +45,9 @@ Read [Stage 4](references/stage-4-strategy.md). Turn the main findings into a li
 
 Ask when the answer changes the direction or next useful action. Otherwise, mark uncertainty and proceed. Do not require exact metrics, a complete profile, or approval after each stage. Once the user has selected a hypothesis and supplied usable experience, provide calibration and a plan rather than continuing an open-ended interview.
 
-Answer immediate questions and retain the established direction. An acknowledgment continues the agreed next step. A correction changes affected findings; a closed vacancy removes that lead, not the whole assessment. If the user remains undecided, suggest a small comparison experiment. Exploration-only users can skip hiring simulation. When users return with results, update the hypothesis and next step using what they learned.
+Answer immediate questions and retain the established direction. An acknowledgment continues the agreed next step by producing the promised analysis or deliverable, not another invitation or intake question. If an assessment is incomplete, finish its remaining stages. A correction changes affected findings; a closed vacancy removes that lead, not the whole assessment. If the user remains undecided, suggest a small comparison experiment. When users return with results, update the hypothesis and next step using what they learned.
+
+A proposed experiment is a future action, never a prerequisite for receiving the assessment. If the user declines an example, exercise, or portfolio task, preserve the available evidence and adapt the plan to their stated preference; do not replace the declined task with another evidence interview. After an assessment is complete, answer narrow follow-ups directly without repeating all four stages.
 
 ## Evidence and practical limits
 
