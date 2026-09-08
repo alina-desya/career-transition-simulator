@@ -19,6 +19,10 @@ Keep stage outputs in the conversation. Do not ask whether to save, export, or c
 
 After the final synthesis, offer a brief at most once per simulation, and only if the user has not already requested or declined an export. If a file was requested, create it without another generic confirmation. Otherwise, wait for agreement before writing. Returning with results does not reset a declined offer; the user can request an updated export at any time.
 
+Whenever making this offer, use the following exact sentence on its own line, with the entire line bolded. Do not paraphrase it or vary its formatting:
+
+**If useful, I can also create a short career-transition brief from this assessment.**
+
 Respect the requested filename, location, and supported format. If none is specified, use a descriptive filename and Markdown. Offer Word or PDF only when supported; if file creation is unavailable, provide copyable content. Do not silently create internal files or overwrite an existing unrelated file. For an existing brief, follow explicit update authorization or ask before replacing it.
 
 ## Saved content
